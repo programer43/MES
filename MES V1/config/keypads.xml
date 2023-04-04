@@ -1,8 +1,8 @@
 <keypads>
- <keypad name="alphabet" loadOnStartup="true"/>
- <keypad name="aphabletsmes" loadOnStartup="true"/>
- <keypad name="calendar" loadOnStartup="true"/>
- <keypad name="keypad1" loadOnStartup="true"/>
+ <keypad name="Alphabet" loadOnStartup="true"/>
+ <keypad name="AphabletSMES" loadOnStartup="true"/>
+ <keypad name="Calendar" loadOnStartup="true"/>
+ <keypad name="KeyPad1" loadOnStartup="true"/>
  <keypad name="KeyPad2" loadOnStartup="true"/>
- <keypad name="numeric" loadOnStartup="true"/>
+ <keypad name="Numeric" loadOnStartup="true"/>
 </keypads>

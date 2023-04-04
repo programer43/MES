@@ -1,6 +1,6 @@
 <fonts>
- <font langIds="1" fontname="Roboto" name="Roboto-Regular.ttf" size="170984" embed="true" removable="false"/>
- <font langIds="1" fontname="Roboto" name="Roboto-Bold.ttf" size="170064" embed="true" removable="false"/>
- <font langIds="1" fontname="Roboto Medium" name="Roboto-Medium.ttf" size="171320" embed="true" removable="false"/>
- <font langIds="1" fontname="Roboto Light" name="Roboto-Light.ttf" size="169680" embed="true" removable="false"/>
+ <font name="Roboto-Bold.ttf" fontname="Roboto" size="170064" embed="true" removable="false" langIds="1"/>
+ <font name="Roboto-Regular.ttf" fontname="Roboto" size="170984" embed="true" removable="false" langIds="1"/>
+ <font name="Roboto-Medium.ttf" fontname="Roboto Medium" size="171320" embed="true" removable="false" langIds="1"/>
+ <font name="Roboto-Light.ttf" fontname="Roboto Light" size="169680" embed="true" removable="false" langIds="1"/>
 </fonts>
