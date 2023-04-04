@@ -1,0 +1,194 @@
+<wgtPage rev="1" projectType="HMI Project">
+ <object downloadPrepDone="false" pageSize="800,480" staticOptEnable="true" scriptFile="sesionsoporte.js" staticFile="opt/sesionsoporte.png" class="PageWgt" dataWndSize="0,70" usedFonts="Roboto" pageName="SesionSoporte" id="SesionSoporte">
+  <wgtStyle v="04.05.00.558" fitToSize="1" width="800" mtx="1,0,0,0,1,0,0,0,1" ver="040500558" x="0" height="480" y="0"/>
+  <object static="true" class="ImageWgt" id="ImageWgt1">
+   <wgtStyle imagePath="images/INICIO DE SESI_U211N.png" cy="242.07" width="802.50" x="-1.50" height="484.14" y="-1.58" cx="401.25"/>
+  </object>
+  <object mlFileName="" class="PageMLTextMgrWgt" mgrType="Page" id="_PageMLTextMgrWgt">
+   <wgtStyle width="0" x="0" height="0" y="0"/>
+   <langs defLangId="L1" curLangId="L1">
+    <lang keypads="" defaultFont="Roboto" langId="L1" name="Lang1" langCode="en-US" writingsystem="Any" removable="false"/>
+   </langs>
+   <MLTexts>
+    <MLText L1="" id="2"/>
+   </MLTexts>
+  </object>
+  <object static="true" class="ImageWgt" id="image2">
+   <wgtStyle imagePath="images/Barra abajo.png" cy="32.68" width="802.50" x="-1.50" height="65.36" y="417" cx="401.25"/>
+  </object>
+  <object class="GroupSubscribeWgt" id="SesionSoporte@$GroupSubscrWgt@$0">
+   <wgtStyle width="0" x="0" height="0" y="0"/>
+  </object>
+  <object class="MultiStateImageWgt" id="MultistateImage1">
+   <wgtStyle imagePath="images/Barra1_0.png,images/Barra1_1.png,images/Barra1_2.png,images/Barra1_3.png" cy="30.26" continuousIndex="1" width="803.50" imagePathIndexList="" x="-1.50" forcePaint="8" height="60.52" y="-1.58" cx="401.75"/>
+   <dataLinks>
+    <dataLink sourceType="Tag" tag="PLC/GT_StatusProductionUnit" readWrite="R" attribute="frame" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="short" widgetType="Project"/>
+   </dataLinks>
+  </object>
+  <object class="NumericWgt" id="field1">
+   <wgtStyle timeSpec="local" font-family="Roboto" y="199.04" forcePaint="8" alignment="center" height="82.91" font-sizepx="64" font-color="rgb(255,255,255)" form="Numeric" font-size="48" vert-align="middle" readWrite="true" width="272.84" x="263.33" masked="true" step="1" value="*******" cx="126.13" max="2147483647" cy="37.76" text="*******" keypad-type="KeyPad1" usingFormat="" min="-2147483648" numberFormat="1" showThousandSeparator="false"/>
+   <dataLinks>
+    <dataLink sourceType="Tag" tag="PasswordSupport" readWrite="R/W" attribute="value" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="int" widgetType="Project"/>
+   </dataLinks>
+  </object>
+  <object customType="Button" class="GroupWgt" id="BtnStd12">
+   <wgtStyle cy="29.95" width="61.33" x="740.41" height="59.91" y="418.01" cx="30.67"/>
+   <links>
+    <attr attrName="bdrImage" alias="ButtonWgt.bdrImage;ImageWgt1.bdrImage"/>
+   </links>
+   <object static="true" class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnStd12.frmImg">
+    <wgtStyle cy="52.32" width="61.33" mtx="1,0,0,0,1,0,0,0,1" bdrImageSize="52.00,50.00" fill="rgb(127,127,127)" x="0" height="59.91" bdrSize="0.17,0.14,0.16,0.16" y="0" cx="49.25" bdrEdges="0.14,0.13,0.12,0.13"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-name:shiney; hmi-shape:rect; hmi-type:btn; type:btn" id="BtnStd12.btn">
+    <wgtStyle cy="39.31" width="44.82" mtx="1,0,0,0,1,0,0,0,1" bdrImageSize="38.00,37.00" fill="rgb(120,120,120)" downFillColor="rgb(120,120,120)" x="8.25" height="43.77" type="momentary" bdrSize="0.11,0.11,0.08,0.09" y="8.05" cx="37.55" form="standard" value="0"/>
+    <links>
+     <action attribute="onMouseClick" event="onMouseClick" class="LoadPageAction" actionWgt="_PageMgr" actionID="1" pageName="monitoreosenales1.jmx"/>
+    </links>
+   </object>
+   <object static="true" class="LabelWgt" hmiStyle="hmi-type:wgtlabel" id="BtnStd12.lbl">
+    <wgtStyle alignment="center" vert-align="middle" cy="33.79" font-family="Roboto" width="37.74" mtx="1,0,0,0,1,0,0,0,1" wrapping="true" font-sizepx="13" font-size="12" font-color="rgb(40,40,40)" keypad-type="None" x="10.61" height="35.72" y="11.53" cx="36.55"/>
+    <links>
+     <lang class="MLTextLink" textid="2"/>
+    </links>
+   </object>
+   <object static="true" class="ImageWgt" hmiStyle="hmi-name:solid; hmi-shape:rect; hmi-type:icon" id="BtnStd12.icoImg">
+    <wgtStyle cy="12.07" width="23.59" mtx="1,0,0,0,1,0,0,0,1" x="17.68" height="19.58" y="19.58" cx="15.76"/>
+   </object>
+  </object>
+  <object customType="Button" class="GroupWgt" id="BtnStd1">
+   <wgtStyle cy="70.91" width="185.34" x="528.02" forcePaint="73" height="141.83" y="179.86" cx="92.67"/>
+   <dataLinks>
+    <dataLink sourceType="Formula" attribute="visibility">
+     <xForms>
+      <xForm colorPalette="" name="Formula" class="FormulaXForm" compiledExpression="$0==$1" expression="$('PasswordSupport')==$('PLC/GT_PasswordUserSupport')">
+       <dataLinks>
+        <dataLink sourceType="Tag" tag="PasswordSupport" readWrite="R" attribute="$0" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="int" widgetType="Project"/>
+        <dataLink sourceType="Tag" tag="PLC/GT_PasswordUserSupport" readWrite="R" attribute="$1" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="int" widgetType="Project"/>
+       </dataLinks>
+      </xForm>
+     </xForms>
+    </dataLink>
+   </dataLinks>
+   <links>
+    <attr attrName="bdrImage" alias="ButtonWgt.bdrImage;ImageWgt1.bdrImage"/>
+   </links>
+   <object class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnStd1.frmImg">
+    <wgtStyle cy="123.89" width="185.34" mtx="1,0,0,0,1,0,0,0,1" bdrImageSize="52.00,50.00" fill="rgb(127,127,127)" x="0" forcePaint="8" height="141.83" bdrSize="0.17,0.14,0.16,0.16" y="0" cx="148.82" bdrEdges="0.14,0.13,0.12,0.13"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-name:shiney; hmi-shape:rect; hmi-type:btn; type:btn" id="BtnStd1.btn">
+    <wgtStyle cy="93.06" width="135.44" mtx="1,0,0,0,1,0,0,0,1" bdrImageSize="38.00,37.00" fill="rgb(120,120,120)" releasePath="images\ingresar.png" downFillColor="rgb(120,120,120)" x="24.96" forcePaint="9" height="103.64" type="momentary" bdrSize="0.11,0.11,0.08,0.09" y="19.08" cx="113.48" form="standard" value="0"/>
+    <links>
+     <action attribute="onMouseClick" event="onMouseClick" class="WriteTagAction" actionWgt="_TagMgr" actionID="1" TagValue="0">
+      <dataLinks>
+       <dataLink sourceType="Tag" tag="PasswordSupport" readWrite="R" attribute="tagSrc" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="int" widgetType="Project"/>
+      </dataLinks>
+     </action>
+     <action attribute="onMouseClick" event="onMouseClick" class="LoadPageAction" actionWgt="_PageMgr" actionID="2" pageName="menusoporte.jmx"/>
+    </links>
+   </object>
+   <object static="true" class="LabelWgt" hmiStyle="hmi-type:wgtlabel" id="BtnStd1.lbl">
+    <wgtStyle alignment="center" vert-align="middle" cy="80.02" font-family="Roboto" width="114.06" mtx="1,0,0,0,1,0,0,0,1" wrapping="true" font-sizepx="13" font-size="12" font-color="rgb(40,40,40)" keypad-type="None" x="32.07" height="84.56" y="27.28" cx="110.46"/>
+    <links>
+     <lang class="MLTextLink" textid="2"/>
+    </links>
+   </object>
+   <object static="true" class="ImageWgt" hmiStyle="hmi-name:solid; hmi-shape:rect; hmi-type:icon" id="BtnStd1.icoImg">
+    <wgtStyle cy="28.58" width="71.28" mtx="1,0,0,0,1,0,0,0,1" x="53.46" height="46.37" y="46.37" cx="47.63"/>
+   </object>
+  </object>
+  <object class="ImageWgt" id="ImageWgt3">
+   <wgtStyle imagePath="images/AccesoAutorizado_00.png" cy="34.30" width="387.73" x="126.66" forcePaint="8" height="68.58" y="311.72" cx="193.86"/>
+   <dataLinks>
+    <dataLink sourceType="Formula" attribute="visibility">
+     <xForms>
+      <xForm colorPalette="" name="Formula" class="FormulaXForm" compiledExpression="$0==$1" expression="$('PLC/GT_PasswordUserSupport')==$('PasswordSupport')">
+       <dataLinks>
+        <dataLink sourceType="Tag" tag="PLC/GT_PasswordUserSupport" readWrite="R" attribute="$0" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="int" widgetType="Project"/>
+        <dataLink sourceType="Tag" tag="PasswordSupport" readWrite="R" attribute="$1" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="int" widgetType="Project"/>
+       </dataLinks>
+      </xForm>
+     </xForms>
+    </dataLink>
+   </dataLinks>
+  </object>
+  <object class="ImageWgt" id="ImageWgt4">
+   <wgtStyle imagePath="images/Contrasena_incorrecta_00.png" cy="34.30" width="387.73" x="126.66" forcePaint="9" height="68.58" y="311.72" cx="193.86"/>
+   <dataLinks>
+    <dataLink sourceType="Formula" attribute="visibility">
+     <xForms>
+      <xForm colorPalette="" name="Formula" class="FormulaXForm" compiledExpression="$0!=$1" expression="$('PasswordSupport')!=$('PLC/GT_PasswordUserSupport')">
+       <dataLinks>
+        <dataLink sourceType="Tag" tag="PasswordSupport" readWrite="R" attribute="$0" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="int" widgetType="Project"/>
+        <dataLink sourceType="Tag" tag="PLC/GT_PasswordUserSupport" readWrite="R" attribute="$1" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="int" widgetType="Project"/>
+       </dataLinks>
+      </xForm>
+     </xForms>
+    </dataLink>
+   </dataLinks>
+  </object>
+  <object customType="Buttons" class="GroupWgt" id="BtnStd2">
+   <wgtStyle cy="32.97" width="163.82" x="465.33" forcePaint="1" height="65.94" y="-3.99" cx="81.91"/>
+   <object class="ButtonWgt" hmiStyle="hmi-name:smooth; hmi-shape:rect; hmi-type:btn; type:btn" id="BtnStd2.btn">
+    <wgtStyle downFillColor="rgb(173,173,173)" style="0" y="0" forcePaint="1" height="65.94" type="momentary" form="standard" bdrSize="0.17,0.17,0.15,0.16" width="163.82" fill="none" needlePath="images\Btn_rect_Dwn.svg" x="0" mtx="1,0,0,0,1,0,0,0,1" value="0" cx="81.91" bdrImageSize="54.00,44.00" cy="32.97" pushColor="rgb(128,128,0)" releasePath="images\Btn_rect_blueUp.svg"/>
+    <links>
+     <action attribute="onMouseClick" event="onMouseClick" class="HomePageAction" actionWgt="_PageMgr" actionID="1"/>
+    </links>
+   </object>
+  </object>
+  <object customType="Buttons" class="GroupWgt" id="BtnStd6">
+   <wgtStyle cy="32.47" width="66.65" x="-4" height="64.95" y="418.07" cx="33.32"/>
+   <object class="ButtonWgt" hmiStyle="hmi-name:smooth; hmi-shape:rect; hmi-type:btn; type:btn" id="BtnStd6.btn">
+    <wgtStyle downFillColor="rgb(173,173,173)" style="0" y="0" height="64.95" type="momentary" form="standard" bdrSize="0.17,0.17,0.15,0.16" width="66.65" fill="none" needlePath="images\Btn_rect_Dwn.svg" x="0" mtx="1,0,0,0,1,0,0,0,1" value="0" cx="33.32" bdrImageSize="54.00,44.00" cy="32.47" pushColor="rgb(128,128,0)" releasePath="images\Btn_rect_blueUp.svg"/>
+    <links>
+     <action attribute="onMouseClick" event="onMouseClick" class="LoadPageAction" actionWgt="_PageMgr" actionID="0" pageName="about.jmx"/>
+    </links>
+   </object>
+  </object>
+  <object class="NumericWgt" id="timedate2">
+   <wgtStyle timeSpec="local" font-bold="true" font-family="Roboto" y="432.50" forcePaint="8" alignment="center" height="43.84" font-sizepx="27" form="date-time" font-size="20" vert-align="middle" width="190.90" x="275.58" step="1" value="-1" cx="89.16" max="4096" cy="21.91" text="-1" keypad-type="None" usingFormat="hh:mm:ss" min="0" numberFormat="0" showThousandSeparator="false"/>
+   <dataLinks>
+    <dataLink sourceType="System" tag="System Time" readWrite="R" attribute="value" class="SysPropMgrWgt" tagIndex="-1" dataSource="_SysPropMgr" tagType="long" widgetType="Project"/>
+   </dataLinks>
+  </object>
+  <object class="ImageWgt" id="image3">
+   <wgtStyle imagePath="images/RejojAmarillo.png" cy="23" width="46" x="236.31" forcePaint="73" height="46" y="427.58" cx="22.99"/>
+   <dataLinks>
+    <dataLink sourceType="Tag" tag="PLC/DP_TONEnableTimeEvent" readWrite="R" attribute="visibility" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="boolean" widgetType="Project"/>
+   </dataLinks>
+  </object>
+  <object class="MultiStateImageWgt" id="MultistateImage3">
+   <wgtStyle imagePath="images/PILA.png,images/PILA 1.png,images/PILA 2.png,images/PILA 3.png,images/PILA 4.png,images/PILA 5.png" cy="22.22" continuousIndex="1" width="65.74" imagePathIndexList="" x="572.96" forcePaint="8" height="44.45" y="414.86" cx="32.87"/>
+   <dataLinks>
+    <dataLink sourceType="Tag" tag="PLC/GT_StoredFIFO" readWrite="R" attribute="frame" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="short" widgetType="Project"/>
+   </dataLinks>
+  </object>
+  <object class="NumericWgt" id="field3">
+   <wgtStyle timeSpec="local" font-bold="true" font-family="Roboto" y="453.86" forcePaint="9" alignment="center" height="24.15" font-sizepx="21" font-color="rgb(23,30,40)" form="Numeric" font-size="16" vert-align="middle" width="54.49" x="579.21" step="1" value="999" cx="25.78" max="32767" cy="11.36" text="999" keypad-type="Numeric" usingFormat="" min="-32768" numberFormat="1" showThousandSeparator="false"/>
+   <dataLinks>
+    <dataLink sourceType="Tag" tag="PLC/FF_StoredData" readWrite="R" attribute="value" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="short" widgetType="Project"/>
+   </dataLinks>
+  </object>
+  <object class="ImageWgt" id="image4">
+   <wgtStyle imagePath="images/Bascula.png" cy="21.63" width="48.29" x="479.67" forcePaint="8" height="43.26" y="418.86" cx="24.14"/>
+   <dataLinks>
+    <dataLink sourceType="Tag" tag="PLC/GT_HABILITAR_VISUAL_PESO" readWrite="R" attribute="visibility" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="boolean" widgetType="Project"/>
+   </dataLinks>
+  </object>
+  <object static="true" class="ImageWgt" id="image5">
+   <wgtStyle imagePath="images/idMaquina.png" cy="15.78" width="41.10" x="666.97" height="31.56" y="422.86" cx="20.55"/>
+  </object>
+  <object class="NumericWgt" id="field5">
+   <wgtStyle timeSpec="local" font-bold="true" font-family="Roboto" y="453.86" forcePaint="8" alignment="center" height="24.74" font-sizepx="21" font-color="rgb(23,30,40)" form="Numeric" font-size="16" vert-align="middle" width="57.60" x="658.72" step="1" value="999" cx="26.49" max="2147483647" cy="11.14" text="999" keypad-type="Numeric" usingFormat="" min="-2147483648" numberFormat="1" showThousandSeparator="false"/>
+   <dataLinks>
+    <dataLink sourceType="Tag" tag="PLC/OPC_IdProductionUnit" readWrite="R" attribute="value" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="unsignedShort" widgetType="Project"/>
+   </dataLinks>
+  </object>
+  <object class="NumericWgt" id="field6">
+   <wgtStyle timeSpec="local" font-bold="true" font-family="Roboto" y="459.86" forcePaint="73" alignment="center" height="24.47" font-sizepx="21" font-color="rgb(23,30,40)" form="Numeric" font-size="16" vert-align="middle" decimalDigits="1" width="95.16" x="459.22" step="1" value="9999.0" cx="43.77" max="2147483647" cy="11.02" text="9999.0" keypad-type="Numeric" usingFormat="" min="-2147483648" numberFormat="1" showThousandSeparator="false"/>
+   <dataLinks>
+    <dataLink sourceType="Tag" tag="PLC/GT_MessageTimeElapsed" readWrite="R" attribute="value" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="int" widgetType="Project"/>
+    <dataLink sourceType="Tag" tag="PLC/GT_TimeMessage" readWrite="R" attribute="visibility" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="boolean" widgetType="Project"/>
+   </dataLinks>
+  </object>
+ </object>
+</wgtPage>

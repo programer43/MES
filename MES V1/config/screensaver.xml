@@ -1,0 +1,11 @@
+<screenSaver>
+ <timeOut>60</timeOut>
+ <EnableScreenSaver>false</EnableScreenSaver>
+ <slideShow Enable="true">
+  <slideTimeout>5</slideTimeout>
+  <imageLocation>4</imageLocation>
+  <images>
+   <image>screensaver/logo_sincron_sa1.jpg</image>
+  </images>
+ </slideShow>
+</screenSaver>

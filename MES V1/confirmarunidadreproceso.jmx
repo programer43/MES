@@ -1,0 +1,89 @@
+<wgtPage rev="1" projectType="HMI Project">
+ <object px="0" pageType="non-modal" py="0" downloadPrepDone="false" titlebar="false" pageSize="1280,800" staticOptEnable="true" scriptFile="confirmarunidadreproceso.js" staticFile="opt/confirmarunidadreproceso.png" class="DialogWgt" dynPosition="false" singleInstance="true" dataWndSize="0,70" titleName="" usedFonts="Roboto" pageName="ConfirmarUnidadReproceso" id="ConfirmarUnidadReproceso">
+  <wgtStyle v="04.05.00.558" fitToSize="1" width="1280" ver="040500558" x="0" height="800" y="0"/>
+  <object static="true" class="ImageWgt" id="ImageWgt1">
+   <wgtStyle imagePath="images/54.png" cy="401.50" width="1284" x="0" height="803" y="0" cx="642"/>
+  </object>
+  <object mlFileName="" class="PageMLTextMgrWgt" mgrType="Page" id="_PageMLTextMgrWgt">
+   <wgtStyle width="0" x="0" height="0" y="0"/>
+   <langs defLangId="L1" curLangId="L1">
+    <lang keypads="" defaultFont="Roboto" langId="L1" name="Lang1" langCode="en-US" writingsystem="Any" removable="false"/>
+   </langs>
+   <MLTexts>
+    <MLText L1="" id="1"/>
+   </MLTexts>
+  </object>
+  <object customType="Button" class="GroupWgt" id="BtnStd1">
+   <wgtStyle cy="56.76" width="284.08" x="325.38" height="113.52" y="520" cx="142.04"/>
+   <links>
+    <attr attrName="bdrImage" alias="ButtonWgt.bdrImage;ImageWgt1.bdrImage"/>
+   </links>
+   <object static="true" class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnStd1.frmImg">
+    <wgtStyle cy="99.16" width="284.08" bdrImageSize="52.00,50.00" fill="rgb(127,127,127)" x="0" height="113.52" bdrSize="0.17,0.14,0.16,0.16" y="0" cx="228.10" bdrEdges="0.14,0.13,0.12,0.13"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-name:shiney; hmi-shape:rect; hmi-type:btn; type:btn" id="BtnStd1.btn">
+    <wgtStyle cy="74.49" width="207.61" bdrImageSize="38.00,37.00" fill="rgb(120,120,120)" downFillColor="rgb(120,120,120)" x="38.23" forcePaint="8" height="82.95" type="momentary" bdrSize="0.11,0.11,0.08,0.09" y="15.28" cx="173.95" form="standard" value="0"/>
+    <dataLinks>
+     <dataLink sourceType="Tag" tag="PLC/GT_ReprocessedUnit" readWrite="R/W" attribute="value" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="boolean" widgetType="Project"/>
+    </dataLinks>
+    <links>
+     <action attribute="onMouseClick" event="onMouseClick" class="CloseDialogAction" actionWgt="_PageMgr" actionID="1" pageName="" closeParam="Selected"/>
+    </links>
+   </object>
+   <object static="true" class="LabelWgt" hmiStyle="hmi-type:wgtlabel" id="BtnStd1.lbl">
+    <wgtStyle alignment="center" vert-align="middle" cy="64.06" font-family="Roboto" width="174.83" wrapping="true" font-sizepx="13" font-size="12" font-color="rgb(40,40,40)" keypad-type="None" x="49.16" height="67.68" y="21.84" cx="169.31"/>
+    <links>
+     <lang class="MLTextLink" textid="1"/>
+    </links>
+   </object>
+   <object static="true" class="ImageWgt" hmiStyle="hmi-name:solid; hmi-shape:rect; hmi-type:icon" id="BtnStd1.icoImg">
+    <wgtStyle cy="22.87" width="109.25" x="81.95" height="37.11" y="37.11" cx="73"/>
+   </object>
+  </object>
+  <object customType="Button" class="GroupWgt" id="BtnStd2">
+   <wgtStyle cy="56.76" width="284.08" x="678.91" height="113.52" y="516.04" cx="142.04"/>
+   <links>
+    <attr attrName="bdrImage" alias="ButtonWgt.bdrImage;ImageWgt1.bdrImage"/>
+   </links>
+   <object static="true" class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnStd2.frmImg">
+    <wgtStyle cy="99.16" width="284.08" bdrImageSize="52.00,50.00" fill="rgb(127,127,127)" x="0" height="113.52" bdrSize="0.17,0.14,0.16,0.16" y="0" cx="228.10" bdrEdges="0.14,0.13,0.12,0.13"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-name:shiney; hmi-shape:rect; hmi-type:btn; type:btn" id="BtnStd2.btn">
+    <wgtStyle cy="74.49" width="207.61" bdrImageSize="38.00,37.00" fill="rgb(120,120,120)" downFillColor="rgb(120,120,120)" x="38.23" height="82.95" type="momentary" bdrSize="0.11,0.11,0.08,0.09" y="15.28" cx="173.95" form="standard" value="0"/>
+    <links>
+     <action attribute="onMouseClick" event="onMouseClick" class="WriteTagAction" actionWgt="_TagMgr" actionID="1" TagValue="0">
+      <dataLinks>
+       <dataLink sourceType="Tag" tag="PLC/CP_ReprocessedCounterUnitsByKeyBoard" readWrite="R" attribute="tagSrc" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="int" widgetType="Project"/>
+      </dataLinks>
+     </action>
+     <action attribute="onMouseClick" event="onMouseClick" class="CloseDialogAction" actionWgt="_PageMgr" actionID="2" pageName="" closeParam="Selected"/>
+     <action attribute="onMouseClick" event="onMouseClick" class="HomePageAction" actionWgt="_PageMgr" actionID="3"/>
+    </links>
+   </object>
+   <object static="true" class="LabelWgt" hmiStyle="hmi-type:wgtlabel" id="BtnStd2.lbl">
+    <wgtStyle alignment="center" vert-align="middle" cy="64.06" font-family="Roboto" width="174.83" wrapping="true" font-sizepx="13" font-size="12" font-color="rgb(40,40,40)" keypad-type="None" x="49.16" height="67.68" y="21.84" cx="169.31"/>
+    <links>
+     <lang class="MLTextLink" textid="1"/>
+    </links>
+   </object>
+   <object static="true" class="ImageWgt" hmiStyle="hmi-name:solid; hmi-shape:rect; hmi-type:icon" id="BtnStd2.icoImg">
+    <wgtStyle cy="22.87" width="109.25" x="81.95" height="37.11" y="37.11" cx="73"/>
+   </object>
+  </object>
+  <object class="NumericWgt" id="field3">
+   <wgtStyle timeSpec="local" font-family="Roboto" y="134.54" forcePaint="8" alignment="right" height="32.70" font-sizepx="16" font-color="rgb(23,30,40)" form="Numeric" font-size="12" vert-align="top" width="39.52" x="16.13" step="1" value="9" cx="18.18" max="1" cy="14.72" text="9" keypad-type="Numeric" usingFormat="" min="0" numberFormat="1" showThousandSeparator="false"/>
+   <dataLinks>
+    <dataLink sourceType="Tag" tag="PLC/GT_ReturnHome" readWrite="R" attribute="value" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="boolean" widgetType="Project"/>
+   </dataLinks>
+  </object>
+  <object class="NumericWgt" id="field1">
+   <wgtStyle timeSpec="local" font-bold="true" font-family="Roboto" y="235.39" forcePaint="8" alignment="center" height="73.46" font-sizepx="32" font-color="rgb(255,255,255)" form="Numeric" font-size="24" vert-align="top" width="112.35" x="865.09" step="1" value="999" cx="51.68" max="2147483647" cy="33.05" text="999" keypad-type="Numeric" usingFormat="" min="-2147483648" numberFormat="1" showThousandSeparator="false"/>
+   <dataLinks>
+    <dataLink sourceType="Tag" tag="PLC/CP_ReprocessedCounterUnitsByKeyBoard" readWrite="R" attribute="value" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="int" widgetType="Project"/>
+   </dataLinks>
+  </object>
+  <object class="GroupSubscribeWgt" id="ConfirmarUnidadReproceso@$GroupSubscrWgt@$0">
+   <wgtStyle width="0" x="0" height="0" y="0"/>
+  </object>
+ </object>
+</wgtPage>

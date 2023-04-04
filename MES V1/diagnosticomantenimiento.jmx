@@ -1,0 +1,104 @@
+<wgtPage rev="1" projectType="HMI Project">
+ <object px="0" pageType="modal" py="0" downloadPrepDone="false" titlebar="false" pageSize="706,304" staticOptEnable="true" class="DialogWgt" dynPosition="false" singleInstance="true" dataWndSize="0,70" titleName="" usedFonts="Roboto" pageName="DiagnosticoMantenimiento" id="DiagnosticoMantenimiento">
+  <wgtStyle v="04.05.00.558" fitToSize="1" width="706" ver="040500558" color="none" x="0" forcePaint="512" height="304" y="0"/>
+  <object mlFileName="" class="PageMLTextMgrWgt" mgrType="Page" id="_PageMLTextMgrWgt">
+   <wgtStyle width="0" x="0" height="0" y="0"/>
+   <langs defLangId="L1" curLangId="L1">
+    <lang keypads="" defaultFont="Roboto" langId="L1" name="Lang1" langCode="en-US" writingsystem="Any" removable="false"/>
+   </langs>
+   <MLTexts>
+    <MLText L1="" id="18"/>
+   </MLTexts>
+  </object>
+  <object customType="Button" class="GroupWgt" id="BtnStd6">
+   <wgtStyle cy="322.99" width="709" x="0.17" height="646" y="-122.43" cx="354.49"/>
+   <links>
+    <attr attrName="bdrImage" alias="ButtonWgt.bdrImage;ImageWgt1.bdrImage"/>
+   </links>
+   <object static="true" class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnStd6.frmImg">
+    <wgtStyle cy="481.45" width="707.87" bdrImageSize="52.00,50.00" fill="rgb(127,127,127)" x="0" height="551.20" bdrSize="0.17,0.14,0.16,0.16" y="94.80" cx="568.33" bdrEdges="0.14,0.13,0.12,0.13"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-name:shiney; hmi-shape:rect; hmi-type:btn; type:btn" id="BtnStd6.btn">
+    <wgtStyle cy="493.81" width="708.66" bdrImageSize="38.00,37.00" fill="none" releasePath="images\DIAGNOSTICO-MANTENIMIENTO.png" downFillColor="none" x="0.34" height="549.98" type="momentary" bdrSize="0.11,0.11,0.08,0.09" y="0" cx="593.78" form="standard" value="0"/>
+    <links>
+     <action attribute="onMouseClick" event="onMouseClick" class="LoadPageAction" actionWgt="_PageMgr" actionID="1" pageName="eventregistration.jmx"/>
+     <action attribute="onMouseClick" event="onMouseClick" class="ResetBitAction" actionWgt="_TagMgr" BitIndex="0" actionID="2">
+      <dataLinks>
+       <dataLink sourceType="Tag" tag="PLC/GT_SelectorSwitchOfActivity_0" readWrite="R" attribute="tagSrc" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="boolean" widgetType="Project"/>
+      </dataLinks>
+     </action>
+     <action attribute="onMouseClick" event="onMouseClick" class="ResetBitAction" actionWgt="_TagMgr" BitIndex="0" actionID="3">
+      <dataLinks>
+       <dataLink sourceType="Tag" tag="PLC/GT_SelectorSwitchOfActivity_1" readWrite="R" attribute="tagSrc" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="boolean" widgetType="Project"/>
+      </dataLinks>
+     </action>
+     <action attribute="onMouseClick" event="onMouseClick" class="ResetBitAction" actionWgt="_TagMgr" BitIndex="0" actionID="4">
+      <dataLinks>
+       <dataLink sourceType="Tag" tag="PLC/GT_SelectorSwitchOfActivity_2" readWrite="R" attribute="tagSrc" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="boolean" widgetType="Project"/>
+      </dataLinks>
+     </action>
+     <action attribute="onMouseClick" event="onMouseClick" class="ResetBitAction" actionWgt="_TagMgr" BitIndex="0" actionID="5">
+      <dataLinks>
+       <dataLink sourceType="Tag" tag="PLC/GT_SelectorSwitchOfActivity_3" readWrite="R" attribute="tagSrc" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="boolean" widgetType="Project"/>
+      </dataLinks>
+     </action>
+     <action attribute="onMouseClick" event="onMouseClick" class="ResetBitAction" actionWgt="_TagMgr" BitIndex="0" actionID="6">
+      <dataLinks>
+       <dataLink sourceType="Tag" tag="PLC/GT_SelectorSwitchOfActivity_4" readWrite="R" attribute="tagSrc" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="boolean" widgetType="Project"/>
+      </dataLinks>
+     </action>
+     <action attribute="onMouseClick" event="onMouseClick" class="ResetBitAction" actionWgt="_TagMgr" BitIndex="0" actionID="7">
+      <dataLinks>
+       <dataLink sourceType="Tag" tag="PLC/GT_SelectorSwitchOfActivity_5" readWrite="R" attribute="tagSrc" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="boolean" widgetType="Project"/>
+      </dataLinks>
+     </action>
+     <action attribute="onMouseClick" event="onMouseClick" class="ResetBitAction" actionWgt="_TagMgr" BitIndex="0" actionID="8">
+      <dataLinks>
+       <dataLink sourceType="Tag" tag="PLC/GT_SelectorSwitchOfActivity_6" readWrite="R" attribute="tagSrc" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="boolean" widgetType="Project"/>
+      </dataLinks>
+     </action>
+     <action attribute="onMouseClick" event="onMouseClick" class="ResetBitAction" actionWgt="_TagMgr" BitIndex="0" actionID="9">
+      <dataLinks>
+       <dataLink sourceType="Tag" tag="PLC/GT_SelectorSwitchOfActivity_7" readWrite="R" attribute="tagSrc" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="boolean" widgetType="Project"/>
+      </dataLinks>
+     </action>
+     <action attribute="onMouseClick" event="onMouseClick" class="ResetBitAction" actionWgt="_TagMgr" BitIndex="0" actionID="10">
+      <dataLinks>
+       <dataLink sourceType="Tag" tag="PLC/GT_SelectorSwitchOfActivity_8" readWrite="R" attribute="tagSrc" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="boolean" widgetType="Project"/>
+      </dataLinks>
+     </action>
+     <action attribute="onMouseClick" event="onMouseClick" class="ResetBitAction" actionWgt="_TagMgr" BitIndex="0" actionID="11">
+      <dataLinks>
+       <dataLink sourceType="Tag" tag="PLC/GT_SelectorSwitchOfActivity_9" readWrite="R" attribute="tagSrc" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="boolean" widgetType="Project"/>
+      </dataLinks>
+     </action>
+     <action attribute="onMouseClick" event="onMouseClick" class="ResetBitAction" actionWgt="_TagMgr" BitIndex="0" actionID="12">
+      <dataLinks>
+       <dataLink sourceType="Tag" tag="PLC/GT_SelectorSwitchOfActivity_10" readWrite="R" attribute="tagSrc" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="boolean" widgetType="Project"/>
+      </dataLinks>
+     </action>
+     <action attribute="onMouseClick" event="onMouseClick" class="ResetBitAction" actionWgt="_TagMgr" BitIndex="0" actionID="13">
+      <dataLinks>
+       <dataLink sourceType="Tag" tag="PLC/GT_SelectorSwitchOfActivity_11" readWrite="R" attribute="tagSrc" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="boolean" widgetType="Project"/>
+      </dataLinks>
+     </action>
+     <action attribute="onMouseClick" event="onMouseClick" class="ResetBitAction" actionWgt="_TagMgr" BitIndex="0" actionID="14">
+      <dataLinks>
+       <dataLink sourceType="Tag" tag="PLC/GT_MaintenanceDiagnostic" readWrite="R" attribute="tagSrc" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="boolean" widgetType="Project"/>
+      </dataLinks>
+     </action>
+     <action attribute="onMouseClick" event="onMouseClick" class="CloseDialogAction" actionWgt="_PageMgr" actionID="15" pageName="" closeParam="Selected"/>
+    </links>
+   </object>
+   <object static="true" class="LabelWgt" hmiStyle="hmi-type:wgtlabel" id="BtnStd6.lbl">
+    <wgtStyle alignment="center" vert-align="middle" cy="311.02" font-family="Roboto" width="435.61" wrapping="true" font-sizepx="13" font-size="12" font-color="none" keypad-type="None" x="122.52" height="328.59" y="200.79" cx="421.87"/>
+    <links>
+     <lang class="MLTextLink" textid="18"/>
+    </links>
+   </object>
+   <object static="true" class="ImageWgt" hmiStyle="hmi-name:solid; hmi-shape:rect; hmi-type:icon" id="BtnStd6.icoImg">
+    <wgtStyle cy="111.08" width="272.26" fill="none" x="204.19" height="180.22" y="274.99" cx="181.87"/>
+   </object>
+  </object>
+ </object>
+</wgtPage>

@@ -1,0 +1,45 @@
+<wgtPage rev="1" projectType="HMI Project">
+ <object px="0" pageType="modal" py="0" downloadPrepDone="false" titlebar="false" pageSize="370,149" staticOptEnable="true" class="DialogWgt" dynPosition="false" singleInstance="true" dataWndSize="0,70" titleName="" usedFonts="Roboto" pageName="OrdenDeTrabajoBloqueada" id="OrdenDeTrabajoBloqueada">
+  <wgtStyle v="04.05.00.558" fitToSize="1" width="370" ver="040500558" color="none" x="0" forcePaint="512" height="149" y="0"/>
+  <object mlFileName="" class="PageMLTextMgrWgt" mgrType="Page" id="_PageMLTextMgrWgt">
+   <wgtStyle width="0" x="0" height="0" y="0"/>
+   <langs defLangId="L1" curLangId="L1">
+    <lang keypads="" defaultFont="Roboto" langId="L1" name="Lang1" langCode="en-US" writingsystem="Any" removable="false"/>
+   </langs>
+   <MLTexts>
+    <MLText L1="" id="25"/>
+   </MLTexts>
+  </object>
+  <object customType="Button" class="GroupWgt" id="BtnStd11">
+   <wgtStyle cy="74.94" width="370.83" x="-1" height="149.88" y="-0.44" cx="185.41"/>
+   <links>
+    <attr attrName="bdrImage" alias="ButtonWgt.bdrImage;ImageWgt1.bdrImage"/>
+   </links>
+   <object static="true" class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnStd11.frmImg">
+    <wgtStyle cy="130.91" width="370.36" bdrImageSize="52.00,50.00" fill="rgb(127,127,127)" x="0" height="149.88" bdrSize="0.17,0.14,0.16,0.16" y="0" cx="297.37" bdrEdges="0.14,0.13,0.12,0.13"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-name:shiney; hmi-shape:rect; hmi-type:btn; type:btn" id="BtnStd11.btn">
+    <wgtStyle cy="134.60" width="370.80" bdrImageSize="38.00,37.00" fill="rgb(120,120,120)" releasePath="images\mms_blouqeo_ot_00.png" downFillColor="rgb(120,120,120)" x="0.03" height="149.88" type="momentary" bdrSize="0.11,0.11,0.08,0.09" y="0" cx="310.70" form="standard" value="0"/>
+    <links>
+     <action attribute="onMouseClick" event="onMouseClick" class="ResetBitAction" actionWgt="_TagMgr" BitIndex="0" actionID="1">
+      <dataLinks>
+       <dataLink sourceType="Tag" tag="PLC/GT_MenssageJOBSelected" readWrite="R" attribute="tagSrc" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="boolean" widgetType="Project"/>
+      </dataLinks>
+     </action>
+    </links>
+   </object>
+   <object static="true" class="LabelWgt" hmiStyle="hmi-type:wgtlabel" id="BtnStd11.lbl">
+    <wgtStyle alignment="center" vert-align="middle" cy="84.58" font-family="Roboto" width="227.91" wrapping="true" font-sizepx="13" font-size="12" font-color="none" keypad-type="None" x="104.08" height="89.36" y="30.26" cx="220.72"/>
+    <links>
+     <lang class="MLTextLink" textid="25"/>
+    </links>
+   </object>
+   <object static="true" class="ImageWgt" hmiStyle="hmi-name:solid; hmi-shape:rect; hmi-type:icon" id="BtnStd11.icoImg">
+    <wgtStyle cy="30.21" width="142.44" fill="none" x="106.84" height="48.99" y="48.99" cx="95.16"/>
+   </object>
+  </object>
+  <object class="GroupSubscribeWgt" id="OrdenDeTrabajoBloqueada@$GroupSubscrWgt@$0">
+   <wgtStyle width="0" x="0" height="0" y="0"/>
+  </object>
+ </object>
+</wgtPage>

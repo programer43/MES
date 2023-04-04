@@ -1,0 +1,68 @@
+<wgtPage rev="1" projectType="HMI Project">
+ <object px="0" pageType="non-modal" py="0" downloadPrepDone="false" titlebar="false" pageSize="565,350" staticOptEnable="true" scriptFile="operarionoregistrado.js" staticFile="opt/operarionoregistrado.png" class="DialogWgt" dynPosition="false" singleInstance="true" dataWndSize="0,70" titleName="" usedFonts="Roboto" pageName="OperarioNoRegistrado" id="OperarioNoRegistrado">
+  <wgtStyle v="04.05.00.558" fitToSize="1" width="565" ver="040500558" color="rgb(255,255,0)" x="0" height="350" y="0"/>
+  <object mlFileName="" class="PageMLTextMgrWgt" mgrType="Page" id="_PageMLTextMgrWgt">
+   <wgtStyle width="0" x="0" height="0" y="0"/>
+   <langs defLangId="L1" curLangId="L1">
+    <lang keypads="" defaultFont="Roboto" langId="L1" name="Lang1" langCode="en-US" writingsystem="Any" removable="false"/>
+   </langs>
+   <MLTexts>
+    <MLText L1="" id="7"/>
+    <MLText L1="Operario no registrado" id="0"/>
+   </MLTexts>
+  </object>
+  <object class="GroupSubscribeWgt" id="OperarioNoRegistrado@$GroupSubscrWgt@$0">
+   <wgtStyle width="0" x="0" height="0" y="0"/>
+  </object>
+  <object static="true" class="LabelWgt" id="label1">
+   <wgtStyle alignment="center" vert-align="middle" cy="35.15" font-family="Roboto" width="474.78" wrapping="true" font-sizepx="37" font-size="28" font-color="rgb(23,30,40)" font-bold="true" keypad-type="None" x="47.11" marker="true" height="74.20" y="175" cx="220.01"/>
+   <links>
+    <lang class="MLTextLink" textid="0"/>
+   </links>
+  </object>
+  <object static="true" class="ImageWgt" id="altImg47">
+   <wgtStyle imagePath="images/ic_al1_047.svg" cy="34.30" width="63.63" x="252.68" height="68.60" y="79.96" cx="31.82"/>
+  </object>
+  <object static="true" class="ShapeWgt" id="rect1">
+   <wgtStyle cy="176" width="569" stroke-width="10" fill="none" nodeName="rect" x="0" height="352" y="0" cx="275.32"/>
+  </object>
+  <object customType="Button" class="GroupWgt" id="BtnStd5">
+   <wgtStyle cy="55.99" width="121.14" x="446.63" forcePaint="8" height="112" y="0.16" cx="60.57"/>
+   <dataLinks>
+    <dataLink sourceType="Formula" attribute="visibility">
+     <xForms>
+      <xForm colorPalette="" name="Formula" class="FormulaXForm" compiledExpression="$0==1" expression="$('mmsgOpNoRegistrado')==1">
+       <dataLinks>
+        <dataLink sourceType="Tag" tag="mmsgOpNoRegistrado" readWrite="R" attribute="$0" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="boolean" widgetType="Project"/>
+       </dataLinks>
+      </xForm>
+     </xForms>
+    </dataLink>
+   </dataLinks>
+   <links>
+    <attr attrName="bdrImage" alias="ButtonWgt.bdrImage;ImageWgt1.bdrImage"/>
+   </links>
+   <object class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnStd5.frmImg">
+    <wgtStyle cy="97.85" width="121.14" bdrImageSize="52.00,50.00" fill="rgb(127,127,127)" x="0" forcePaint="8" height="112" bdrSize="0.17,0.14,0.16,0.16" y="0" cx="97.26" bdrEdges="0.14,0.13,0.12,0.13"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-name:shiney; hmi-shape:rect; hmi-type:btn; type:btn" id="BtnStd5.btn">
+    <wgtStyle cy="73.49" width="88.53" bdrImageSize="38.00,37.00" fill="rgb(120,120,120)" downFillColor="rgb(120,120,120)" x="16.32" forcePaint="9" height="81.84" type="momentary" bdrSize="0.11,0.11,0.08,0.09" y="15.08" cx="74.17" form="standard" value="0"/>
+    <links>
+     <action f="BtnStd5_btn_onMouseClick" attribute="onMouseClick" event="onMouseClick" class="JavaScriptAction" actionWgt="_WgtMgr" actionID="1"/>
+    </links>
+   </object>
+   <object static="true" class="LabelWgt" hmiStyle="hmi-type:wgtlabel" id="BtnStd5.lbl">
+    <wgtStyle alignment="center" vert-align="middle" cy="63.18" font-family="Roboto" width="74.53" wrapping="true" font-sizepx="13" font-size="12" font-color="rgb(40,40,40)" keypad-type="None" x="20.96" height="66.78" y="21.53" cx="72.18"/>
+    <links>
+     <lang class="MLTextLink" textid="7"/>
+    </links>
+   </object>
+   <object static="true" class="ImageWgt" hmiStyle="hmi-name:solid; hmi-shape:rect; hmi-type:icon" id="BtnStd5.icoImg">
+    <wgtStyle cy="22.55" width="46.61" x="34.94" height="36.61" y="36.61" cx="31.13"/>
+   </object>
+  </object>
+  <object class="ImageWgt" id="mathImg13">
+   <wgtStyle imagePath="images/ic_ma1_013.svg" cy="28" width="48.95" stroke-width="0" stroke="rgb(139,0,0)" x="494.36" forcePaint="1" height="56" y="25.36" cx="24.47"/>
+  </object>
+ </object>
+</wgtPage>

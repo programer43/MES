@@ -1,0 +1,1107 @@
+<groups>
+ <group Type="Auto">
+  <name>About@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>AddUser@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>Force Change Initial Password</tag>
+  <tag>Force Logoff Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>BajaVelocidad@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_RESET_DESLOGUEO_HMI</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/MV_DeadBand</tag>
+  <tag>PLC/MV_EnableLowSpeed</tag>
+  <tag>PLC/MV_SetPonitLowVelocity</tag>
+  <tag>PLC/MV_TimeSPLowVelocity</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>Calendar@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>CambioClaveSoporte@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>ChangePasswordSupport</tag>
+  <tag>NewPasswordSupport</tag>
+  <tag>NewPasswordSupportRepeat</tag>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_PasswordUserSupport</tag>
+  <tag>PLC/GT_RESET_DESLOGUEO_HMI</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>CodigoBarrasCorte@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/CS_FIFOSTGFinishedProduct_0</tag>
+  <tag>PLC/CS_FIFOSTGFinishedProduct_1</tag>
+  <tag>PLC/CS_FIFOSTGFinishedProduct_2</tag>
+  <tag>PLC/CS_FIFOSTGFinishedProduct_3</tag>
+  <tag>PLC/CS_FIFOSTGFinishedProduct_4</tag>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_RESET_DESLOGUEO_HMI</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>ComunicacionComRs@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>Bool1</tag>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_MultiplexerSelection_0</tag>
+  <tag>PLC/GT_MultiplexerSelection_1</tag>
+  <tag>PLC/GT_MultiplexerSelection_2</tag>
+  <tag>PLC/GT_MultiplexerSelection_3</tag>
+  <tag>PLC/GT_MultiplexerSelection_4</tag>
+  <tag>PLC/GT_MultiplexerSelection_5</tag>
+  <tag>PLC/GT_MultiplexerSelection_6</tag>
+  <tag>PLC/GT_RESET_DESLOGUEO_HMI</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>ConfiguracionBasculaPeso@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/CS_EnableRequestWeight</tag>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO_ESTACION_PESAJE</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO_PESO_MUESTRA</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_PESO_SINPREFIJO</tag>
+  <tag>PLC/GT_PESO_X10</tag>
+  <tag>PLC/GT_PESO_X100</tag>
+  <tag>PLC/GT_PESO_X1000</tag>
+  <tag>PLC/GT_RESET_DESLOGUEO_HMI</tag>
+  <tag>PLC/GT_ReturnHome</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>ConfiguracionCodigoBarras@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_EnableFinishedProduct</tag>
+  <tag>PLC/GT_EnableRegisterMP</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_RESET_DESLOGUEO_HMI</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/GT_TracingFinishedProductx1</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>ConfiguracionConsumoElectrico@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/DP_SelectorSignalOfPulsesEcopower</tag>
+  <tag>PLC/DP_SignalDeniedOfPulsesEcopower</tag>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_DivisionScaleEcopower</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_KWH</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_RESET_DESLOGUEO_HMI</tag>
+  <tag>PLC/GT_ReturnHome</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>ConfiguracionJob@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_EnableChangeJOBInOperation</tag>
+  <tag>PLC/GT_EnableChangeJOBWithoutProgramming</tag>
+  <tag>PLC/GT_EnableCrewClosingByJOB</tag>
+  <tag>PLC/GT_EnableLockChangeJOB</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_RESET_DESLOGUEO_HMI</tag>
+  <tag>PLC/GT_SelectorJOBCounter</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>ConfiguracionModuloExpansion@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/Exp_Enable_0</tag>
+  <tag>PLC/Exp_Enable_1</tag>
+  <tag>PLC/Exp_Enable_2</tag>
+  <tag>PLC/Exp_Enable_3</tag>
+  <tag>PLC/Exp_Enable_4</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_RESET_DESLOGUEO_HMI</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/GT_VISUALIZA_INGRESO_MOTIVO</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>ConfiguracionOperacion@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/Exp_SPOperation_0</tag>
+  <tag>PLC/Exp_SPOperation_1</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_RESET_DESLOGUEO_HMI</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>ConfiguracionOperarioToken@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/CS_EnableIbuttonJob</tag>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_EnableIbuttonOperator</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_RESET_DESLOGUEO_HMI</tag>
+  <tag>PLC/GT_ReturnHome</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>ConfirmEvent@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/GT_EventConfirm</tag>
+  <tag>PLC/GT_EventTrigger</tag>
+  <tag>PLC/GT_ReturnHome</tag>
+  <tag>Second</tag>
+  <tag>vistaConfirmacionEvento</tag>
+ </group>
+ <group Type="Auto">
+  <name>ConfirmEventEndOfShift@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/GT_ReturnHome</tag>
+ </group>
+ <group Type="Auto">
+  <name>ConfirmPersonnel@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/GT_ReturnHome</tag>
+ </group>
+ <group Type="Auto">
+  <name>ConfirmacionCorte@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/GT_ReturnHome</tag>
+ </group>
+ <group Type="Auto">
+  <name>ConfirmacionOrdenDeTrabajo@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/GT_ReturnHome</tag>
+ </group>
+ <group Type="Auto">
+  <name>ConfirmarRegistroUnidadDefectuosa@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/CP_DefectiveCounterUnitsByKeyBoard</tag>
+  <tag>PLC/GT_DefecticveUnit</tag>
+  <tag>PLC/GT_ReturnHome</tag>
+ </group>
+ <group Type="Auto">
+  <name>ConfirmarUnidadReproceso@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/CP_ReprocessedCounterUnitsByKeyBoard</tag>
+  <tag>PLC/GT_ReprocessedUnit</tag>
+  <tag>PLC/GT_ReturnHome</tag>
+ </group>
+ <group Type="Auto">
+  <name>Contadores@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/DP_FIFO_DefectiveCounterUnits</tag>
+  <tag>PLC/DP_FIFO_ProducedCounterUnits</tag>
+  <tag>PLC/DP_FIFO_ReprocessedCounterUnits</tag>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_ReturnHome</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/MV_EnableQuadrature</tag>
+  <tag>PLC/MV_MultiplierFifoDefectiveCounterUnits</tag>
+  <tag>PLC/MV_MultiplierFifoProducedCounterUnits</tag>
+  <tag>PLC/MV_MultiplierFifoReprocessedCounterUnits</tag>
+  <tag>PLC/MV_SelectorFifoDefectiveCounterUnits</tag>
+  <tag>PLC/MV_SelectorFifoProducedCounterUnits</tag>
+  <tag>PLC/MV_SelectorFifoReprocessedCounterUnits</tag>
+  <tag>PLC/MV_SignalDeniedDefectiveUnits</tag>
+  <tag>PLC/MV_SignalDeniedProducedUnits</tag>
+  <tag>PLC/MV_SignalDeniedReprocessedUnits</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>ContadoresProduccion@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/CP_DS12CounterUnits</tag>
+  <tag>PLC/CP_DS13CounterUnits</tag>
+  <tag>PLC/CP_DS14CounterUnits</tag>
+  <tag>PLC/CP_DefectiveCounterUnits</tag>
+  <tag>PLC/CP_ProducedCounterUnits</tag>
+  <tag>PLC/CP_ReprocessedCounterUnits</tag>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_ReturnHome</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>DAB_soporte@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/AA_StationNumber</tag>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_EnableLot</tag>
+  <tag>PLC/GT_EnableQualityLogging</tag>
+  <tag>PLC/GT_RESET_DESLOGUEO_HMI</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>EventRegistration@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/ArrayEventButton_0</tag>
+  <tag>PLC/ArrayEventButton_1</tag>
+  <tag>PLC/ArrayEventButton_10</tag>
+  <tag>PLC/ArrayEventButton_11</tag>
+  <tag>PLC/ArrayEventButton_2</tag>
+  <tag>PLC/ArrayEventButton_3</tag>
+  <tag>PLC/ArrayEventButton_4</tag>
+  <tag>PLC/ArrayEventButton_5</tag>
+  <tag>PLC/ArrayEventButton_6</tag>
+  <tag>PLC/ArrayEventButton_7</tag>
+  <tag>PLC/ArrayEventButton_8</tag>
+  <tag>PLC/ArrayEventButton_9</tag>
+  <tag>PLC/EntryActivity</tag>
+  <tag>PLC/GT_SelectorSwitchOfActivity</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_VISUALIZA_INGRESO_MOTIVO</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>EventRegistrationLoad@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>Home@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>CantidadOPseleccionada</tag>
+  <tag>CodigoOpSeleccionado</tag>
+  <tag>DescripcionOPseleccionada</tag>
+  <tag>MetaOPseleccionada</tag>
+  <tag>PLC/CP_ConformingCounterUnits</tag>
+  <tag>PLC/CP_ConformingCounterUnitsEquivalence</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_MOTIVO_ACTUAL_VISUAL</tag>
+  <tag>PLC/GT_PYpreload</tag>
+  <tag>PLC/GT_SetIdEventStockHMI</tag>
+  <tag>PLC/GT_SetIdPersonnelHMI</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StorageLock</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_UnitMeasurement</tag>
+  <tag>PLC/GT_UnitMeasurementCounter</tag>
+  <tag>PLC/GT_WithoutProgramming</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>ReferenciaSeleccionada</tag>
+  <tag>Second</tag>
+  <tag>eventSelectToJOB</tag>
+  <tag>operarioSelectToJOB</tag>
+ </group>
+ <group Type="Auto">
+  <name>LoadDataJob@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>Available</tag>
+  <tag>Done</tag>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>PLC/TM_CURRENT_VALUE_TON_TIMER</tag>
+  <tag>PLC/TM_SET_VALUE_TON_TIMER</tag>
+  <tag>PLC/TM_SIGNAL_OUTPUT_TON_TIMER</tag>
+  <tag>PLC/TM_START_TON_TIMER</tag>
+  <tag>RemoteIpAddress</tag>
+  <tag>System Time</tag>
+  <tag>TokenRe</tag>
+  <tag>TokenSend</tag>
+  <tag>connStatus</tag>
+  <tag>connect</tag>
+ </group>
+ <group Type="Auto">
+  <name>MES V1@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>Day</tag>
+  <tag>Hour</tag>
+  <tag>Minute</tag>
+  <tag>Month</tag>
+  <tag>PLC/GT_DateTime_0</tag>
+  <tag>PLC/GT_DateTime_1</tag>
+  <tag>PLC/GT_DateTime_2</tag>
+  <tag>PLC/GT_DateTime_3</tag>
+  <tag>PLC/GT_DateTime_4</tag>
+  <tag>PLC/GT_DateTime_5</tag>
+  <tag>PLC/GT_ReturnHome</tag>
+  <tag>Second</tag>
+  <tag>Year</tag>
+ </group>
+ <group Type="Auto">
+  <name>MedicionAnaloga@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/CS_EnableSignalVA01Weight</tag>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/Exp_Enable_0</tag>
+  <tag>PLC/Exp_Enable_1</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_EnableVA01</tag>
+  <tag>PLC/GT_EnableVA02</tag>
+  <tag>PLC/GT_HABILITACION_LECTURA_CONSUMO</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_RESET_DESLOGUEO_HMI</tag>
+  <tag>PLC/GT_ReturnHome</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>MenuSoporte@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_EnableLockButtonChangeJOB</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_RESET_DESLOGUEO_HMI</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/GT_ValidationReferenceInHMI_13</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>MonitoreoSenales1@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_RESET_DESLOGUEO_HMI</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+  <tag>X0</tag>
+  <tag>X1</tag>
+  <tag>X2</tag>
+  <tag>X3</tag>
+  <tag>X4</tag>
+  <tag>X5</tag>
+  <tag>X6</tag>
+  <tag>X7</tag>
+  <tag>X8</tag>
+  <tag>X9</tag>
+  <tag>XA</tag>
+  <tag>XB</tag>
+  <tag>XC</tag>
+  <tag>XD</tag>
+  <tag>XE</tag>
+  <tag>XF</tag>
+  <tag>Y0</tag>
+  <tag>Y1</tag>
+  <tag>Y2</tag>
+  <tag>Y3</tag>
+  <tag>Y4</tag>
+  <tag>Y5</tag>
+  <tag>Y6</tag>
+  <tag>Y7</tag>
+  <tag>Y8</tag>
+  <tag>Y9</tag>
+  <tag>YA</tag>
+  <tag>YB</tag>
+  <tag>YC</tag>
+  <tag>YD</tag>
+ </group>
+ <group Type="Auto">
+  <name>MonitoreoUnidadExpansion1@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/CS_ProcessedSignalVA01Weight</tag>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/Exp_kW</tag>
+  <tag>PLC/Exp_kWh</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_RESET_DESLOGUEO_HMI</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>MonitoreoUnidadExpansion@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/Exp_Datos_0</tag>
+  <tag>PLC/Exp_Datos_1</tag>
+  <tag>PLC/Exp_Datos_2</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_RESET_DESLOGUEO_HMI</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>MonitoreoUnidadExpansionA@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/Exp_Datos_0</tag>
+  <tag>PLC/Exp_Datos_1</tag>
+  <tag>PLC/Exp_Datos_2</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_RESET_DESLOGUEO_HMI</tag>
+  <tag>PLC/GT_ReturnHome</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>MonitoreoUnidadeExpansionB@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/CS_ProcessedSignalVA01Weight</tag>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/Exp_kW</tag>
+  <tag>PLC/Exp_kWh</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_RESET_DESLOGUEO_HMI</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>MuestreoPeso@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/CS_DATO_MUESTREO</tag>
+  <tag>PLC/CS_SelectorSignalConformalWeight</tag>
+  <tag>PLC/CS_SelectorSignalWeightNoCompliant</tag>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_PORCENTAJE_MUESTREO_PESO</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_RESET_DESLOGUEO_HMI</tag>
+  <tag>PLC/GT_SELECTOR_SALIDA_PLC_ALARMA_PORCENTAJE_PESO_MUESTREO</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>NoHaySolicitud@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/GT_WithoutMaintenanceRequest</tag>
+ </group>
+ <group Type="Auto">
+  <name>OperarioNoRegistrado@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>mmsgOpNoRegistrado</tag>
+ </group>
+ <group Type="Auto">
+  <name>OrdenDeTrabajo@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>DescripcionHMI(0)</tag>
+  <tag>DescripcionHMI(1)</tag>
+  <tag>DescripcionHMI(2)</tag>
+  <tag>DescripcionHMI(3)</tag>
+  <tag>DescripcionHMI(4)</tag>
+  <tag>DescripcionHMI(5)</tag>
+  <tag>GT_StatusProductionUnit</tag>
+  <tag>NumP</tag>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_CleanJOBSelected</tag>
+  <tag>PLC/GT_EnableFinishedProduct</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MenssageJOBCompleted</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_RESET_DESLOGUEO_HMI</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>PLC/OP_JOBIdRecipe</tag>
+  <tag>System Time</tag>
+  <tag>jobCode(0)</tag>
+  <tag>jobCode(1)</tag>
+  <tag>jobCode(2)</tag>
+  <tag>jobCode(3)</tag>
+  <tag>jobCode(4)</tag>
+  <tag>jobCode(5)</tag>
+  <tag>jobId(0)</tag>
+  <tag>jobId(1)</tag>
+  <tag>jobId(2)</tag>
+  <tag>jobId(3)</tag>
+  <tag>jobId(4)</tag>
+  <tag>jobId(5)</tag>
+  <tag>jobQty(0)</tag>
+  <tag>jobQty(1)</tag>
+  <tag>jobQty(2)</tag>
+  <tag>jobQty(3)</tag>
+  <tag>jobQty(4)</tag>
+  <tag>jobQty(5)</tag>
+ </group>
+ <group Type="Auto">
+  <name>PerssonelRegistration@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>BuscarOperarioHMI</tag>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_CodeSecondaryOperator</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TIEMPO_ESPERA_MOTIVO_INGRESADO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>Second</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>ProgramacionDeCorte@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/CP_ArrayEnableScheduledcut_0</tag>
+  <tag>PLC/CP_ArrayEnableScheduledcut_1</tag>
+  <tag>PLC/CP_ArrayEnableScheduledcut_2</tag>
+  <tag>PLC/CP_ArrayEnableScheduledcut_3</tag>
+  <tag>PLC/CP_ArrayEnableScheduledcut_4</tag>
+  <tag>PLC/CP_ArrayHourScheduledCut_0</tag>
+  <tag>PLC/CP_ArrayHourScheduledCut_1</tag>
+  <tag>PLC/CP_ArrayHourScheduledCut_2</tag>
+  <tag>PLC/CP_ArrayHourScheduledCut_3</tag>
+  <tag>PLC/CP_ArrayHourScheduledCut_4</tag>
+  <tag>PLC/CP_ArrayMinuteScheduledCut_0</tag>
+  <tag>PLC/CP_ArrayMinuteScheduledCut_1</tag>
+  <tag>PLC/CP_ArrayMinuteScheduledCut_2</tag>
+  <tag>PLC/CP_ArrayMinuteScheduledCut_3</tag>
+  <tag>PLC/CP_ArrayMinuteScheduledCut_4</tag>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_RESET_DESLOGUEO_HMI</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>RegistroDefectuosas@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/CP_ConformingCounterUnits</tag>
+  <tag>PLC/CP_DefectiveCounterUnits</tag>
+  <tag>PLC/CP_DefectiveCounterUnitsByKeyBoard</tag>
+  <tag>PLC/CP_ProducedCounterUnits</tag>
+  <tag>PLC/CP_ReprocessedCounterUnits</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/GT_VISUALIZA_INGRESO_MOTIVO</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>RegistroUniReproceso@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/CP_ConformingCounterUnits</tag>
+  <tag>PLC/CP_DefectiveCounterUnits</tag>
+  <tag>PLC/CP_ProducedCounterUnits</tag>
+  <tag>PLC/CP_ReprocessedCounterUnits</tag>
+  <tag>PLC/CP_ReprocessedCounterUnitsByKeyBoard</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/GT_VISUALIZA_INGRESO_MOTIVO</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>ResetHMI@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>Second</tag>
+ </group>
+ <group Type="Auto">
+  <name>SenalCuadreEventoComodin@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/CE_SetPonitComodinActivity</tag>
+  <tag>PLC/DP_EnableSignalCuadre</tag>
+  <tag>PLC/DP_SelectorSignalCuadre</tag>
+  <tag>PLC/DP_SelectorSignalFinishedProduct</tag>
+  <tag>PLC/DP_SelectorSignalOfMP</tag>
+  <tag>PLC/DP_SignalDeniedCuadre</tag>
+  <tag>PLC/DP_SignalDeniedFinishedProduct</tag>
+  <tag>PLC/DP_SignalDeniedOfMP</tag>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_EnableComodinEvent</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_ReturnHome</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>SenalDeCorte@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/DP_SignalDeniedOfMP</tag>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_RESET_DESLOGUEO_HMI</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>SenalInactivacion@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/DP_PulseValidationPercentage</tag>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_OutputSelectorPLCWhitoutJOB</tag>
+  <tag>PLC/GT_RESET_DESLOGUEO_HMI</tag>
+  <tag>PLC/GT_ReturnHome</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>PLC/OP_JOBTolerancePercentage</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>SenalesMantenimiento1@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/DP_EnableFirstSignalOfValidation</tag>
+  <tag>PLC/DP_EnableSecondSignalOfValidation</tag>
+  <tag>PLC/DP_FirstSignalDeniedOfValidation</tag>
+  <tag>PLC/DP_OperationSelector</tag>
+  <tag>PLC/DP_SecondSignalDeniedOfValidation</tag>
+  <tag>PLC/DP_SelectorFirstSignalOfValidation</tag>
+  <tag>PLC/DP_SelectorSecondSignalOfValidation</tag>
+  <tag>PLC/DP_SignalDeniedOperation</tag>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_RESET_DESLOGUEO_HMI</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>SenalesMantenimiento2@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MODO_ARRANQUE_NIVEL_DELAY</tag>
+  <tag>PLC/GT_MODO_ARRANQUE_PULSOS</tag>
+  <tag>PLC/GT_MODO_PARADA_NIVEL_DELAY</tag>
+  <tag>PLC/GT_MODO_PARADA_PULSOS</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_RESET_DESLOGUEO_HMI</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>SenalesMantenimiento3@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MEDICION_VEL_ANALOGA</tag>
+  <tag>PLC/GT_MEDICION_VEL_ENCODER</tag>
+  <tag>PLC/GT_MEDICION_VEL_PULSOS</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_RESET_DESLOGUEO_HMI</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>SesionSoporte@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_PasswordUserSupport</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>PasswordSupport</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>VariableAnaloga1@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/CS_AnalogSinalWeight_0</tag>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_RESET_DESLOGUEO_HMI</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/MV_AnalogSinalVA01_1</tag>
+  <tag>PLC/MV_AnalogSinalVA01_2</tag>
+  <tag>PLC/MV_AnalogSinalVA01_3</tag>
+  <tag>PLC/MV_AnalogSinalVA01_4</tag>
+  <tag>PLC/MV_AnalogSinalVA01_5</tag>
+  <tag>PLC/MV_InputWXVA01</tag>
+  <tag>PLC/MV_ProcessedSignalVA01</tag>
+  <tag>PLC/MV_SELECTOR_VARIABLE_GENERICA_1</tag>
+  <tag>PLC/MV_VARIABLE_GENERICA_NOMBRE_1_0</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>VariableAnaloga2@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/CS_AnalogSinalWeight_0</tag>
+  <tag>PLC/CS_FIFOFinishedProduct_9</tag>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_RESET_DESLOGUEO_HMI</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/MV_AnalogSinalVA02_1</tag>
+  <tag>PLC/MV_AnalogSinalVA02_2</tag>
+  <tag>PLC/MV_AnalogSinalVA02_3</tag>
+  <tag>PLC/MV_AnalogSinalVA02_4</tag>
+  <tag>PLC/MV_AnalogSinalVA02_5</tag>
+  <tag>PLC/MV_InputWXVA02</tag>
+  <tag>PLC/MV_ProcessedSignalVA02</tag>
+  <tag>PLC/MV_SELECTOR_VARIABLE_GENERICA_2</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>VariableAnalogaPeso@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/CS_AnalogSinalWeight_0</tag>
+  <tag>PLC/CS_AnalogSinalWeight_1</tag>
+  <tag>PLC/CS_AnalogSinalWeight_2</tag>
+  <tag>PLC/CS_AnalogSinalWeight_3</tag>
+  <tag>PLC/CS_AnalogSinalWeight_4</tag>
+  <tag>PLC/CS_AnalogSinalWeight_5</tag>
+  <tag>PLC/CS_AnalogSinalWeight_6</tag>
+  <tag>PLC/CS_InputWXVA01Weight</tag>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_RESET_DESLOGUEO_HMI</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>VelocidadAnaloga@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/MV_AnalogSinalVelocity_0</tag>
+  <tag>PLC/MV_AnalogSinalVelocity_1</tag>
+  <tag>PLC/MV_AnalogSinalVelocity_2</tag>
+  <tag>PLC/MV_AnalogSinalVelocity_3</tag>
+  <tag>PLC/MV_AnalogSinalVelocity_4</tag>
+  <tag>PLC/MV_AnalogSinalVelocity_5</tag>
+  <tag>PLC/MV_InputWXVelocity</tag>
+  <tag>PLC/MV_ProcessedSignalVelocity</tag>
+  <tag>PLC/MV_SELECTOR_VELOCIDAD_ANALOGA</tag>
+  <tag>PLC/MV_VELOCIDAD_ACUM_ESCALADA</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>VelocidadEncoder@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/DP_CH0Meter</tag>
+  <tag>PLC/DP_CH0cm</tag>
+  <tag>PLC/DP_EncoderFactor</tag>
+  <tag>PLC/DP_EncoderNegativePulse</tag>
+  <tag>PLC/DP_EncoderPulseXcm</tag>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_CH0_DIAMETRO_ENCODER_CM</tag>
+  <tag>PLC/GT_CH0_PULSOS_POR_VUELTA_ENCODER</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>VelocidadPulsos@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_RESET_DESLOGUEO_HMI</tag>
+  <tag>PLC/GT_StatusProductionUnit</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/MV_CycleSpeed</tag>
+  <tag>PLC/MV_PulseSpeedSelector</tag>
+  <tag>PLC/MV_SignalDeniedPulseSpeed</tag>
+  <tag>PLC/MV_VELOCIDAD_ACUM_ESCALADA</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>PLC/OP_JOBGoal</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>preloadData@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>Available</tag>
+  <tag>Done</tag>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>RemoteIpAddress</tag>
+  <tag>System Time</tag>
+  <tag>TokenRe</tag>
+  <tag>TokenSend</tag>
+  <tag>connStatus</tag>
+  <tag>connect</tag>
+ </group>
+ <group Type="Auto">
+  <name>preloadEvent@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>Available</tag>
+  <tag>Done</tag>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>RemoteIpAddress</tag>
+  <tag>System Time</tag>
+  <tag>TokenRe</tag>
+  <tag>TokenSend</tag>
+  <tag>connStatus</tag>
+  <tag>connect</tag>
+ </group>
+ <group Type="Auto">
+  <name>preloadEventSystem@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>preloadOperario@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>Available</tag>
+  <tag>Done</tag>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>RemoteIpAddress</tag>
+  <tag>System Time</tag>
+  <tag>TokenRe</tag>
+  <tag>TokenSend</tag>
+  <tag>connStatus</tag>
+  <tag>connect</tag>
+ </group>
+ <group Type="Auto">
+  <name>preloadOrdenProduccion@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>Available</tag>
+  <tag>Done</tag>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>RemoteIpAddress</tag>
+  <tag>System Time</tag>
+  <tag>TokenRe</tag>
+  <tag>TokenSend</tag>
+  <tag>connStatus</tag>
+  <tag>connect</tag>
+ </group>
+ <group Type="Auto">
+  <name>systemEventRegistrationData@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>PLC/DP_TONEnableTimeEvent</tag>
+  <tag>PLC/FF_StoredData</tag>
+  <tag>PLC/GT_HABILITAR_VISUAL_PESO</tag>
+  <tag>PLC/GT_MessageTimeElapsed</tag>
+  <tag>PLC/GT_StoredFIFO</tag>
+  <tag>PLC/GT_TimeMessage</tag>
+  <tag>PLC/OPC_IdProductionUnit</tag>
+  <tag>System Time</tag>
+ </group>
+</groups>

@@ -1,0 +1,57 @@
+<wgtPage rev="1" projectType="HMI Project">
+ <object pageType="keypad" downloadPrepDone="false" pageSize="700,800" staticOptEnable="false" class="KeypadPageWgt" dataWndSize="0,70" usedFonts="Roboto" pageName="KeyPad1" id="KeyPad1">
+  <wgtStyle v="04.05.00.558" fitToSize="1" loadOnStartup="true" width="700" lock-keypadpos="true" ver="040500558" caps-present="true" color="none" x="0" height="800" y="0"/>
+  <object mlFileName="" class="PageMLTextMgrWgt" mgrType="Page" id="_PageMLTextMgrWgt">
+   <wgtStyle width="0" x="0" height="0" y="0"/>
+   <langs defLangId="L1" curLangId="L1">
+    <lang keypads="" defaultFont="Roboto" langId="L1" name="Lang1" langCode="en-US" writingsystem="Any" removable="false"/>
+   </langs>
+   <MLTexts/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt5">
+   <wgtStyle font-family="Roboto" y="132" forcePaint="1" height="152.80" type="momentary" font-sizepx="80" font-color="rgb(80,160,240)" form="standard" key="37" font-size="60" vert-align="top" width="165" fill="rgb(255,255,255)" needlePath="images\stop.png" x="14.88" value="0" cx="82.50" cy="74.66" releasePath="images\stop.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt12">
+   <wgtStyle font-family="Roboto" y="132" forcePaint="1" height="152.80" type="momentary" font-sizepx="80" font-color="rgb(80,160,240)" form="standard" key="38" font-size="60" vert-align="top" width="165" fill="rgb(255,255,255)" needlePath="images\stop.png" x="184.88" value="0" cx="82.50" cy="82.13" releasePath="images\stop.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt14">
+   <wgtStyle font-family="Roboto" y="132" forcePaint="1" height="152.80" type="momentary" font-sizepx="80" font-color="rgb(80,160,240)" form="standard" key="39" font-size="60" vert-align="top" width="165" fill="rgb(255,255,255)" needlePath="images\stop.png" x="354.88" value="0" cx="82.50" cy="74.66" releasePath="images\stop.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt17">
+   <wgtStyle font-family="Roboto" y="132" forcePaint="1" height="152.80" type="momentary" font-sizepx="66" font-color="rgb(80,160,240)" form="standard" key="0x01000000" font-size="50" vert-align="top" width="165" fill="rgb(255,255,255)" needlePath="images\stop.png" x="524.88" value="0" cx="82.50" cy="74.66" releasePath="images\stop.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt18">
+   <wgtStyle font-family="Roboto" y="297" forcePaint="1" height="152.80" type="momentary" font-sizepx="80" font-color="rgb(80,160,240)" form="standard" key="34" font-size="60" vert-align="top" width="165" fill="rgb(255,255,255)" needlePath="images\stop.png" x="14.88" value="0" cx="82.50" cy="74.66" releasePath="images\stop.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt19">
+   <wgtStyle font-family="Roboto" y="297" forcePaint="1" height="152.80" type="momentary" font-sizepx="80" font-color="rgb(80,160,240)" form="standard" key="35" font-size="60" vert-align="top" width="165" fill="rgb(255,255,255)" needlePath="images\stop.png" x="184.88" value="0" cx="82.50" cy="74.66" releasePath="images\stop.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt20">
+   <wgtStyle font-family="Roboto" y="297" forcePaint="1" height="152.80" type="momentary" font-sizepx="80" font-color="rgb(80,160,240)" form="standard" key="36" font-size="60" vert-align="top" width="165" fill="rgb(255,255,255)" needlePath="images\stop.png" x="354.88" value="0" cx="82.50" cy="74.66" releasePath="images\stop.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt21">
+   <wgtStyle font-family="Roboto" y="458" forcePaint="1" height="152.80" type="momentary" font-sizepx="80" font-color="rgb(80,160,240)" form="standard" key="31" font-size="60" vert-align="top" width="165" fill="rgb(255,255,255)" needlePath="images\stop.png" x="14.88" value="0" cx="82.50" cy="74.66" releasePath="images\stop.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt50">
+   <wgtStyle font-family="Roboto" y="458" forcePaint="1" height="152.80" type="momentary" font-sizepx="80" font-color="rgb(80,160,240)" form="standard" key="32" font-size="60" vert-align="top" width="165" fill="rgb(255,255,255)" needlePath="images\stop.png" x="184.88" value="0" cx="82.50" cy="74.66" releasePath="images\stop.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt51">
+   <wgtStyle font-family="Roboto" y="458" forcePaint="1" height="152.80" type="momentary" font-sizepx="80" font-color="rgb(80,160,240)" form="standard" key="33" font-size="60" vert-align="top" width="165" fill="rgb(255,255,255)" needlePath="images\stop.png" x="354.88" value="0" cx="82.50" cy="74.66" releasePath="images\stop.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt53">
+   <wgtStyle font-family="Roboto" y="624" forcePaint="1" height="152.80" type="momentary" font-sizepx="80" font-color="rgb(80,160,240)" form="standard" key="30" font-size="60" vert-align="top" width="165" fill="rgb(255,255,255)" needlePath="images\stop.png" x="184.88" value="0" cx="82.50" cy="74.66" releasePath="images\stop.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt22">
+   <wgtStyle font-family="Roboto" y="624" forcePaint="1" height="152.80" type="momentary" font-sizepx="93" font-color="rgb(80,160,240)" form="standard" key="2E" font-size="70" vert-align="top" width="165" fill="rgb(255,255,255)" needlePath="images\stop.png" x="14.88" value="0" cx="82.50" cy="74.66" releasePath="images\stop.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt23">
+   <wgtStyle keyImage="images/backspace (2).png" font-family="Roboto" y="624" forcePaint="1" height="152.80" type="momentary" font-sizepx="33" image-color="rgb(23,30,40)" font-color="rgb(255,255,255)" form="standard" key="0x01000003" font-size="25" vert-align="top" width="165" fill="rgb(255,255,255)" needlePath="images\stop.png" showImage="1" x="354.88" value="0" cx="82.50" cy="74.66" releasePath="images\stop.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt24">
+   <wgtStyle font-family="Roboto" y="297" forcePaint="1" height="152.80" type="momentary" font-sizepx="66" font-color="rgb(80,160,240)" form="standard" key="0x01000005" font-size="50" vert-align="top" width="165" fill="rgb(255,255,255)" needlePath="images\stop.png" x="524.88" value="0" cx="82.50" cy="74.66" releasePath="images\stop.png"/>
+  </object>
+  <object class="KeypadEditBoxWgt" id="keypad_Value1">
+   <wgtStyle readWrite="true" alignment="right" vert-align="middle" cy="51.82" font-family="Roboto" width="634.52" font-sizepx="80" font-size="60" keypad-type="None" x="35.71" height="104.01" text="Value" y="12" cx="316.48"/>
+  </object>
+ </object>
+</wgtPage>

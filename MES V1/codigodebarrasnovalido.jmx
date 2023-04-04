@@ -1,0 +1,15 @@
+<wgtPage rev="1" projectType="HMI Project">
+ <object px="0" pageType="modal" py="0" downloadPrepDone="false" titlebar="false" pageSize="801,113" staticOptEnable="true" staticFile="opt/codigodebarrasnovalido.png" class="DialogWgt" dynPosition="false" singleInstance="true" dataWndSize="0,70" titleName="" pageName="CodigoDeBarrasNoValido" id="CodigoDeBarrasNoValido">
+  <wgtStyle v="04.05.00.558" fitToSize="1" width="801" ver="040500558" color="none" x="0" height="113" y="0"/>
+  <object mlFileName="" class="PageMLTextMgrWgt" mgrType="Page" id="_PageMLTextMgrWgt">
+   <wgtStyle width="0" x="0" height="0" y="0"/>
+   <langs defLangId="L1" curLangId="L1">
+    <lang keypads="" defaultFont="Roboto" langId="L1" name="Lang1" langCode="en-US" writingsystem="Any" removable="false"/>
+   </langs>
+   <MLTexts/>
+  </object>
+  <object static="true" class="ImageWgt" id="ImageWgt2">
+   <wgtStyle imagePath="images/codigoBarrasNoValido.png" cy="56.76" width="801.75" x="-0.37" height="113.52" y="0" cx="400.87"/>
+  </object>
+ </object>
+</wgtPage>

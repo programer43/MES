@@ -1,0 +1,50 @@
+<wgtPage rev="1" projectType="HMI Project">
+ <object px="0" pageType="non-modal" py="0" downloadPrepDone="false" titlebar="false" pageSize="1280,800" staticOptEnable="true" scriptFile="confirmacionordendetrabajo.js" staticFile="opt/confirmacionordendetrabajo.png" class="DialogWgt" dynPosition="false" singleInstance="true" dataWndSize="0,70" titleName="" usedFonts="Roboto" pageName="ConfirmacionOrdenDeTrabajo" id="ConfirmacionOrdenDeTrabajo">
+  <wgtStyle v="04.05.00.558" fitToSize="1" width="1280" ver="040500558" x="0" height="800" y="0"/>
+  <object static="true" class="ImageWgt" id="ImageWgt1">
+   <wgtStyle imagePath="images/Confirma selecci_U243n de orden de trabajo.png" cy="403.50" width="1284" x="0" height="807" y="0" cx="642"/>
+  </object>
+  <object mlFileName="" class="PageMLTextMgrWgt" mgrType="Page" id="_PageMLTextMgrWgt">
+   <wgtStyle width="0" x="0" height="0" y="0"/>
+   <langs defLangId="L1" curLangId="L1">
+    <lang keypads="" defaultFont="Roboto" langId="L1" name="Lang1" langCode="en-US" writingsystem="Any" removable="false"/>
+   </langs>
+   <MLTexts/>
+  </object>
+  <object class="NumericWgt" id="field3">
+   <wgtStyle timeSpec="local" font-family="Roboto" y="134.65" forcePaint="8" alignment="right" height="32.73" font-sizepx="16" font-color="rgb(23,30,40)" form="Numeric" font-size="12" vert-align="top" width="39.47" x="16.11" step="1" value="9" cx="18.16" max="1" cy="14.74" text="9" keypad-type="Numeric" usingFormat="" min="0" numberFormat="1" showThousandSeparator="false"/>
+   <dataLinks>
+    <dataLink sourceType="Tag" tag="PLC/GT_ReturnHome" readWrite="R" attribute="value" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="boolean" widgetType="Project"/>
+   </dataLinks>
+  </object>
+  <object class="GroupSubscribeWgt" id="ConfirmacionOrdenDeTrabajo@$GroupSubscrWgt@$0">
+   <wgtStyle width="0" x="0" height="0" y="0"/>
+  </object>
+  <object customType="Buttons" class="GroupWgt" id="BtnStd4">
+   <wgtStyle cy="62.92" width="284.58" x="338.79" height="125.84" y="478.26" cx="142.29"/>
+   <object class="ButtonWgt" hmiStyle="hmi-name:smooth; hmi-shape:rect; hmi-type:btn; type:btn" id="BtnStd4.btn">
+    <wgtStyle cy="62.92" pushColor="rgb(128,128,0)" width="284.58" bdrImageSize="54.00,44.00" style="0" fill="none" releasePath="images\Btn_rectRound_blueUp.svg" downFillColor="rgb(173,173,173)" x="0" height="125.84" type="momentary" needlePath="images\Btn_rectRound_Dwn.svg" bdrSize="0.17,0.17,0.15,0.16" y="0" cx="142.29" form="standard" value="0"/>
+    <links>
+     <action f="sendJob" attribute="onMouseClick" event="onMouseClick" class="JavaScriptAction" actionWgt="_WgtMgr" actionID="0"/>
+     <action attribute="onMouseClick" event="onMouseClick" class="CloseDialogAction" actionWgt="_PageMgr" actionID="1" pageName="" closeParam="Selected"/>
+     <action attribute="onMouseClick" event="onMouseClick" class="LoadPageAction" actionWgt="_PageMgr" actionID="2" pageName="ordendetrabajo.jmx"/>
+    </links>
+   </object>
+  </object>
+  <object customType="Buttons" class="GroupWgt" id="BtnStd1">
+   <wgtStyle cy="59.55" width="275.15" x="671.14" height="119.10" y="490" cx="137.58"/>
+   <object class="ButtonWgt" hmiStyle="hmi-name:smooth; hmi-shape:rect; hmi-type:btn; type:btn" id="BtnStd1.btn">
+    <wgtStyle cy="59.55" pushColor="rgb(128,128,0)" width="275.15" bdrImageSize="54.00,44.00" style="0" fill="none" releasePath="images\Btn_rectRound_blueUp.svg" downFillColor="rgb(173,173,173)" x="0" height="119.10" type="momentary" needlePath="images\Btn_rectRound_Dwn.svg" bdrSize="0.17,0.17,0.15,0.16" y="0" cx="137.57" form="standard" value="0"/>
+    <links>
+     <action attribute="onMouseClick" event="onMouseClick" class="WriteTagAction" actionWgt="_TagMgr" actionID="0" TagValue="0">
+      <dataLinks>
+       <dataLink sourceType="Tag" tag="PLC/GT_JOBSelector" readWrite="R" attribute="tagSrc" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="short" widgetType="Project"/>
+      </dataLinks>
+     </action>
+     <action attribute="onMouseClick" event="onMouseClick" class="CloseDialogAction" actionWgt="_PageMgr" actionID="1" pageName="" closeParam="Selected"/>
+     <action attribute="onMouseClick" event="onMouseClick" class="LoadPageAction" actionWgt="_PageMgr" actionID="2" pageName="ordendetrabajo.jmx"/>
+    </links>
+   </object>
+  </object>
+ </object>
+</wgtPage>

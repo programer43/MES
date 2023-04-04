@@ -1,0 +1,44 @@
+<wgtPage rev="1" projectType="HMI Project">
+ <object px="0" pageType="modal" py="0" downloadPrepDone="false" titlebar="false" pageSize="764,301" staticOptEnable="true" class="DialogWgt" dynPosition="false" singleInstance="true" dataWndSize="0,70" titleName="" usedFonts="Roboto" pageName="SolicitudMantenimiento" id="SolicitudMantenimiento">
+  <wgtStyle v="04.05.00.558" fitToSize="1" width="764" ver="040500558" color="none" x="0" forcePaint="512" height="301" y="0"/>
+  <object mlFileName="" class="PageMLTextMgrWgt" mgrType="Page" id="_PageMLTextMgrWgt">
+   <wgtStyle width="0" x="0" height="0" y="0"/>
+   <langs defLangId="L1" curLangId="L1">
+    <lang keypads="" defaultFont="Roboto" langId="L1" name="Lang1" langCode="en-US" writingsystem="Any" removable="false"/>
+   </langs>
+   <MLTexts>
+    <MLText L1="" id="18"/>
+   </MLTexts>
+  </object>
+  <object customType="Button" class="GroupWgt" id="BtnStd2">
+   <wgtStyle cy="150.50" width="764" x="-0.39" height="301" y="-0.38" cx="382.01"/>
+   <links>
+    <attr attrName="bdrImage" alias="ButtonWgt.bdrImage;ImageWgt1.bdrImage"/>
+   </links>
+   <object static="true" class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnStd2.frmImg">
+    <wgtStyle cy="262.80" width="762.42" bdrImageSize="52.00,50.00" fill="rgb(127,127,127)" x="0" height="300.87" bdrSize="0.17,0.14,0.16,0.16" y="0" cx="612.13" bdrEdges="0.14,0.13,0.12,0.13"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-name:shiney; hmi-shape:rect; hmi-type:btn; type:btn" id="BtnStd2.btn">
+    <wgtStyle cy="269.55" width="763.26" bdrImageSize="38.00,37.00" fill="none" releasePath="images\Solictud mtto.jpg" downFillColor="none" x="0.74" height="300.21" type="momentary" bdrSize="0.11,0.11,0.08,0.09" y="0.79" cx="639.53" form="standard" value="0"/>
+    <links>
+     <action attribute="onMouseClick" event="onMouseClick" class="LoadPageAction" actionWgt="_PageMgr" actionID="1" pageName="perssonelregistration.jmx"/>
+     <action attribute="onMouseClick" event="onMouseClick" class="ResetBitAction" actionWgt="_TagMgr" BitIndex="0" actionID="2">
+      <dataLinks>
+       <dataLink sourceType="Tag" tag="PLC/GT_MaintenanceRequest" readWrite="R" attribute="tagSrc" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="boolean" widgetType="Project"/>
+      </dataLinks>
+     </action>
+     <action attribute="onMouseClick" event="onMouseClick" class="CloseDialogAction" actionWgt="_PageMgr" actionID="3" pageName="" closeParam="Selected"/>
+    </links>
+   </object>
+   <object static="true" class="LabelWgt" hmiStyle="hmi-type:wgtlabel" id="BtnStd2.lbl">
+    <wgtStyle alignment="center" vert-align="middle" cy="169.77" font-family="Roboto" width="469.18" wrapping="true" font-sizepx="13" font-size="12" font-color="none" keypad-type="None" x="131.96" height="179.36" y="57.87" cx="454.38"/>
+    <links>
+     <lang class="MLTextLink" textid="18"/>
+    </links>
+   </object>
+   <object static="true" class="ImageWgt" hmiStyle="hmi-name:solid; hmi-shape:rect; hmi-type:icon" id="BtnStd2.icoImg">
+    <wgtStyle cy="60.64" width="293.24" fill="none" x="219.93" height="98.36" y="98.36" cx="195.89"/>
+   </object>
+  </object>
+ </object>
+</wgtPage>

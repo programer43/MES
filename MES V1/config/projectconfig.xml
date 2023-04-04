@@ -1,0 +1,8 @@
+<ProjectConfig>
+ <version>04.05.00.558</version>
+ <targetName>WHS1-07</targetName>
+ <manufacturerCode>504</manufacturerCode>
+ <orientation>0</orientation>
+ <panelMemory>4GB</panelMemory>
+ <enableUserMgmt>true</enableUserMgmt>
+</ProjectConfig>

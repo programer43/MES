@@ -1,0 +1,21 @@
+<wgtPage rev="1" projectType="HMI Project">
+ <object px="0" pageType="modal" py="0" downloadPrepDone="false" titlebar="false" pageSize="587,275" staticOptEnable="true" class="DialogWgt" dynPosition="false" singleInstance="true" dataWndSize="0,70" titleName="" pageName="NoHaySolicitud" id="NoHaySolicitud">
+  <wgtStyle v="04.05.00.558" fitToSize="1" width="587" ver="040500558" color="none" x="0" forcePaint="512" height="275" y="0"/>
+  <object mlFileName="" class="PageMLTextMgrWgt" mgrType="Page" id="_PageMLTextMgrWgt">
+   <wgtStyle width="0" x="0" height="0" y="0"/>
+   <langs defLangId="L1" curLangId="L1">
+    <lang keypads="" defaultFont="Roboto" langId="L1" name="Lang1" langCode="en-US" writingsystem="Any" removable="false"/>
+   </langs>
+   <MLTexts/>
+  </object>
+  <object class="ImageWgt" id="image3">
+   <wgtStyle imagePath="images/GTWIN_V3 - CUsersatorres.INTRANETDesktopDemoComercialGT_DemoComercialGT_DemoComercial.GTT - [B-27 INGRESAR OPERARIOGT_DemoComercia_2.jpg" cy="137.74" width="586.80" x="0.10" forcePaint="8" height="275.47" y="-0.24" cx="293.40"/>
+   <dataLinks>
+    <dataLink sourceType="Tag" tag="PLC/GT_WithoutMaintenanceRequest" readWrite="R" attribute="visibility" class="TagMgrWgt" tagIndex="-1" dataSource="_TagMgr" tagType="boolean" widgetType="Project"/>
+   </dataLinks>
+  </object>
+  <object class="GroupSubscribeWgt" id="NoHaySolicitud@$GroupSubscrWgt@$0">
+   <wgtStyle width="0" x="0" height="0" y="0"/>
+  </object>
+ </object>
+</wgtPage>

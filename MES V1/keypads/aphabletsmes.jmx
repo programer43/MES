@@ -1,0 +1,120 @@
+<wgtPage rev="1" projectType="HMI Project">
+ <object pageType="keypad" downloadPrepDone="false" pageSize="760,470" staticOptEnable="false" class="KeypadPageWgt" dataWndSize="0,70" usedFonts="Roboto" pageName="AphabletSMES" id="AphabletSMES">
+  <wgtStyle caps="1" v="04.05.00.558" fitToSize="1" loadOnStartup="true" width="760" ver="040500558" caps-present="true" color="rgb(206,206,206)" x="0" height="470" y="0"/>
+  <object mlFileName="" class="PageMLTextMgrWgt" mgrType="Page" id="_PageMLTextMgrWgt">
+   <wgtStyle width="0" x="0" height="0" y="0"/>
+   <langs defLangId="L1" curLangId="L1">
+    <lang keypads="" defaultFont="Roboto" langId="L1" name="Lang1" langCode="en-US" writingsystem="Any" removable="false"/>
+   </langs>
+   <MLTexts/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt17">
+   <wgtStyle font-bold="true" font-family="Roboto" y="70" shiftkey="29" height="88.84" type="momentary" font-sizepx="40" font-color="rgb(255,255,255)" form="standard" key="30" font-size="30" vert-align="top" width="70.24" fill="rgb(246,246,246)" needlePath="images\cuadrado.png" x="3" value="0" cx="34.31" cy="44.42" releasePath="images\cuadrado.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt1">
+   <wgtStyle font-bold="true" font-family="Roboto" y="70" shiftkey="21" height="88.84" type="momentary" font-sizepx="40" font-color="rgb(255,255,255)" form="standard" key="31" font-size="30" vert-align="top" width="70.24" fill="rgb(246,246,246)" needlePath="images\cuadrado.png" x="79" value="0" cx="34.31" cy="44.42" releasePath="images\cuadrado.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt2">
+   <wgtStyle font-bold="true" font-family="Roboto" y="70" shiftkey="40" height="88.84" type="momentary" font-sizepx="40" font-color="rgb(255,255,255)" form="standard" key="32" font-size="30" vert-align="top" width="70.24" fill="rgb(246,246,246)" needlePath="images\cuadrado.png" x="155" value="0" cx="34.31" cy="44.42" releasePath="images\cuadrado.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt3">
+   <wgtStyle font-bold="true" altgrkey="0x33" font-family="Roboto" y="70" shiftkey="0x23" height="88.84" type="momentary" font-sizepx="40" font-color="rgb(255,255,255)" form="standard" key="0x33" font-size="30" vert-align="top" width="70.24" fill="rgb(246,246,246)" needlePath="images\cuadrado.png" x="231" value="0" cx="34.31" cy="44.42" altgrshiftkey="0xa3" releasePath="images\cuadrado.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt4">
+   <wgtStyle font-bold="true" font-family="Roboto" y="70" shiftkey="24" height="88.84" type="momentary" font-sizepx="40" font-color="rgb(255,255,255)" form="standard" key="34" font-size="30" vert-align="top" width="70.24" fill="rgb(246,246,246)" needlePath="images\cuadrado.png" x="307" value="0" cx="34.31" cy="44.42" releasePath="images\cuadrado.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt5">
+   <wgtStyle font-bold="true" font-family="Roboto" y="70" shiftkey="25" height="88.84" type="momentary" font-sizepx="40" font-color="rgb(255,255,255)" form="standard" key="35" font-size="30" vert-align="top" width="70.24" fill="rgb(246,246,246)" needlePath="images\cuadrado.png" x="383" value="0" cx="34.31" cy="44.42" releasePath="images\cuadrado.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt6">
+   <wgtStyle font-bold="true" font-family="Roboto" y="70" shiftkey="5E" height="88.84" type="momentary" font-sizepx="40" font-color="rgb(255,255,255)" form="standard" key="36" font-size="30" vert-align="top" width="70.24" fill="rgb(246,246,246)" needlePath="images\cuadrado.png" x="459" value="0" cx="34.31" cy="44.42" releasePath="images\cuadrado.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt7">
+   <wgtStyle font-bold="true" font-family="Roboto" y="70" shiftkey="26" height="88.84" type="momentary" font-sizepx="40" font-color="rgb(255,255,255)" form="standard" key="37" font-size="30" vert-align="top" width="70.24" fill="rgb(246,246,246)" needlePath="images\cuadrado.png" x="535" value="0" cx="34.31" cy="44.42" releasePath="images\cuadrado.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt8">
+   <wgtStyle font-bold="true" font-family="Roboto" y="70" shiftkey="2A" height="88.84" type="momentary" font-sizepx="40" font-color="rgb(255,255,255)" form="standard" key="38" font-size="30" vert-align="top" width="70.24" fill="rgb(246,246,246)" needlePath="images\cuadrado.png" x="612" value="0" cx="63.22" cy="44.02" releasePath="images\cuadrado.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt9">
+   <wgtStyle font-bold="true" font-family="Roboto" y="70" shiftkey="28" height="88.84" type="momentary" font-sizepx="40" font-color="rgb(255,255,255)" form="standard" key="39" font-size="30" vert-align="top" width="70.24" fill="rgb(246,246,246)" needlePath="images\cuadrado.png" x="687" value="0" cx="34.31" cy="44.42" releasePath="images\cuadrado.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt13">
+   <wgtStyle font-bold="true" font-family="Roboto" y="169" shiftkey="45" height="88.84" type="momentary" font-sizepx="40" font-color="rgb(255,255,255)" form="standard" key="65" font-size="30" vert-align="top" width="70.24" fill="rgb(246,246,246)" needlePath="images\cuadrado.png" x="307" value="0" cx="34.31" cy="44.42" releasePath="images\cuadrado.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt15">
+   <wgtStyle font-bold="true" font-family="Roboto" y="269" shiftkey="54" height="88.84" type="momentary" font-sizepx="40" font-color="rgb(255,255,255)" form="standard" key="74" font-size="30" vert-align="top" width="70.24" fill="rgb(246,246,246)" needlePath="images\cuadrado.png" x="687" value="0" cx="34.31" cy="44.42" releasePath="images\cuadrado.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt24">
+   <wgtStyle font-bold="true" font-family="Roboto" y="269" shiftkey="50" height="88.84" type="momentary" font-sizepx="40" font-color="rgb(255,255,255)" form="standard" key="70" font-size="30" vert-align="top" width="70.24" fill="rgb(246,246,246)" needlePath="images\cuadrado.png" x="383" value="0" cx="34.31" cy="44.42" releasePath="images\cuadrado.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt29">
+   <wgtStyle font-bold="true" font-family="Roboto" y="169" shiftkey="41" height="88.84" type="momentary" font-sizepx="40" font-color="rgb(255,255,255)" form="standard" key="61" font-size="30" vert-align="top" width="70.24" fill="rgb(246,246,246)" needlePath="images\cuadrado.png" x="3" value="0" cx="34.31" cy="44.42" releasePath="images\cuadrado.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt30">
+   <wgtStyle font-bold="true" font-family="Roboto" y="269" shiftkey="73" height="88.84" type="momentary" font-sizepx="40" font-color="rgb(255,255,255)" form="standard" key="53" font-size="30" vert-align="top" width="70.24" fill="rgb(246,246,246)" needlePath="images\cuadrado.png" x="612" value="0" cx="34.31" cy="44.42" releasePath="images\cuadrado.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt32">
+   <wgtStyle font-bold="true" font-family="Roboto" y="169" shiftkey="46" height="88.84" type="momentary" font-sizepx="40" font-color="rgb(255,255,255)" form="standard" key="66" font-size="30" vert-align="top" width="70.24" fill="rgb(246,246,246)" needlePath="images\cuadrado.png" x="383" value="0" cx="34.31" cy="44.42" releasePath="images\cuadrado.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt44">
+   <wgtStyle font-bold="true" font-family="Roboto" y="169" shiftkey="43" height="88.84" type="momentary" font-sizepx="40" font-color="rgb(255,255,255)" form="standard" key="63" font-size="30" vert-align="top" width="70.24" fill="rgb(246,246,246)" needlePath="images\cuadrado.png" x="155" value="0" cx="35.12" cy="44.42" releasePath="images\cuadrado.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt46">
+   <wgtStyle font-bold="true" font-family="Roboto" y="269" shiftkey="4E" height="88.84" type="momentary" font-sizepx="40" font-color="rgb(255,255,255)" form="standard" key="6E" font-size="30" vert-align="top" width="70.24" fill="rgb(246,246,246)" needlePath="images\cuadrado.png" x="231" value="0" cx="35.12" cy="44.42" releasePath="images\cuadrado.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt47">
+   <wgtStyle font-bold="true" font-family="Roboto" y="269" shiftkey="4D" height="88.84" type="momentary" font-sizepx="40" font-color="rgb(255,255,255)" form="standard" key="6D" font-size="30" vert-align="top" width="70.24" fill="rgb(246,246,246)" needlePath="images\cuadrado.png" x="155" value="0" cx="35.12" cy="44.42" releasePath="images\cuadrado.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt10">
+   <wgtStyle font-bold="true" altgrkey="0x01000000" font-family="Roboto" y="369.16" shiftkey="0x01000000" height="89" type="momentary" font-sizepx="33" font-color="rgb(255,255,255)" form="standard" key="0x01000000" font-size="25" vert-align="top" width="77" fill="rgb(246,246,246)" needlePath="images\cuadrado.png" x="164.79" value="0" cx="37.69" dy="3" cy="44.50" altgrshiftkey="0x01000000" releasePath="images\cuadrado.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt41">
+   <wgtStyle font-bold="true" altgrkey="0x01000005" font-family="Roboto" y="369.16" shiftkey="0x01000005" height="88.50" type="momentary" font-sizepx="33" font-color="rgb(255,255,255)" form="standard" key="0x01000005" font-size="25" vert-align="top" width="190.86" fill="rgb(246,246,246)" needlePath="images\cuadrado.png" x="564.49" value="0" cx="95.43" dy="3" cy="44.25" altgrshiftkey="0x01000005" releasePath="images\cuadrado.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt25">
+   <wgtStyle font-bold="true" altgrkey="0x01000007" font-family="Roboto" y="369.16" shiftkey="0x01000007" height="88.50" type="momentary" font-sizepx="33" font-color="rgb(255,255,255)" form="standard" key="0x01000007" font-size="25" vert-align="top" width="145.46" fill="rgb(246,246,246)" needlePath="images\cuadrado.png" x="401.91" value="0" cx="71.61" dy="3" cy="44.25" altgrshiftkey="0x01000007" releasePath="images\cuadrado.png"/>
+  </object>
+  <object class="KeypadEditBoxWgt" id="keypad_Value">
+   <wgtStyle readWrite="true" alignment="right" vert-align="middle" cy="32.01" font-family="Roboto" width="745" font-sizepx="40" font-size="30" font-color="rgb(40,40,40)" keypad-type="None" x="6" height="64" text="Value" y="3" cx="372.50"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt12">
+   <wgtStyle font-bold="true" font-family="Roboto" y="169" forcePaint="1" shiftkey="42" height="88.84" type="momentary" font-sizepx="40" font-color="rgb(255,255,255)" form="standard" key="62" font-size="30" vert-align="top" width="70.24" fill="rgb(246,246,246)" needlePath="images\cuadrado.png" x="79" value="0" cx="34.31" cy="44.42" releasePath="images\cuadrado.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt14">
+   <wgtStyle font-bold="true" font-family="Roboto" y="169" forcePaint="1" shiftkey="44" height="88.84" type="momentary" font-sizepx="40" font-color="rgb(255,255,255)" form="standard" key="64" font-size="30" vert-align="top" width="70.24" fill="rgb(246,246,246)" needlePath="images\cuadrado.png" x="231" value="0" cx="34.31" cy="44.42" releasePath="images\cuadrado.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt16">
+   <wgtStyle font-bold="true" font-family="Roboto" y="169" forcePaint="1" shiftkey="47" height="88.84" type="momentary" font-sizepx="40" font-color="rgb(255,255,255)" form="standard" key="67" font-size="30" vert-align="top" width="70.24" fill="rgb(246,246,246)" needlePath="images\cuadrado.png" x="459" value="0" cx="34.31" cy="44.42" releasePath="images\cuadrado.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt18">
+   <wgtStyle font-bold="true" font-family="Roboto" y="169" forcePaint="1" shiftkey="48" height="88.84" type="momentary" font-sizepx="40" font-color="rgb(255,255,255)" form="standard" key="68" font-size="30" vert-align="top" width="70.24" fill="rgb(246,246,246)" needlePath="images\cuadrado.png" x="535" value="0" cx="34.31" cy="44.42" releasePath="images\cuadrado.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt19">
+   <wgtStyle font-bold="true" font-family="Roboto" y="169" forcePaint="1" shiftkey="49" height="88.84" type="momentary" font-sizepx="40" font-color="rgb(255,255,255)" form="standard" key="69" font-size="30" vert-align="top" width="70.24" fill="rgb(246,246,246)" needlePath="images\cuadrado.png" x="612" value="0" cx="34.31" cy="44.42" releasePath="images\cuadrado.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt20">
+   <wgtStyle font-bold="true" font-family="Roboto" y="169" forcePaint="1" shiftkey="4A" height="88.84" type="momentary" font-sizepx="40" font-color="rgb(255,255,255)" form="standard" key="6A" font-size="30" vert-align="top" width="70.24" fill="rgb(246,246,246)" needlePath="images\cuadrado.png" x="687" value="0" cx="34.31" cy="44.42" releasePath="images\cuadrado.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt21">
+   <wgtStyle font-bold="true" font-family="Roboto" y="269" forcePaint="1" shiftkey="4B" height="88.84" type="momentary" font-sizepx="40" font-color="rgb(255,255,255)" form="standard" key="6B" font-size="30" vert-align="top" width="70.24" fill="rgb(246,246,246)" needlePath="images\cuadrado.png" x="3" value="0" cx="34.31" cy="44.42" releasePath="images\cuadrado.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt22">
+   <wgtStyle font-bold="true" altgrkey="0xc7" font-family="Roboto" y="269" forcePaint="1" shiftkey="4C" height="88.84" type="momentary" font-sizepx="40" font-color="rgb(255,255,255)" form="standard" key="6C" font-size="30" vert-align="top" width="70.24" fill="rgb(246,246,246)" needlePath="images\cuadrado.png" x="79" value="0" cx="34.31" cy="44.42" altgrshiftkey="0xf2" releasePath="images\cuadrado.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt27">
+   <wgtStyle font-bold="true" font-family="Roboto" y="269" forcePaint="1" shiftkey="4F" height="88.84" type="momentary" font-sizepx="40" font-color="rgb(255,255,255)" form="standard" key="6F" font-size="30" vert-align="top" width="70.24" fill="rgb(246,246,246)" needlePath="images\cuadrado.png" x="307" value="0" cx="34.31" cy="44.42" releasePath="images\cuadrado.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt28">
+   <wgtStyle font-bold="true" font-family="Roboto" y="269" forcePaint="1" shiftkey="51" height="88.84" type="momentary" font-sizepx="40" font-color="rgb(255,255,255)" form="standard" key="71" font-size="30" vert-align="top" width="70.24" fill="rgb(246,246,246)" needlePath="images\cuadrado.png" x="459" value="0" cx="34.31" cy="44.42" releasePath="images\cuadrado.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt31">
+   <wgtStyle font-bold="true" font-family="Roboto" y="269" forcePaint="1" shiftkey="52" height="88.84" type="momentary" font-sizepx="40" font-color="rgb(255,255,255)" form="standard" key="72" font-size="30" vert-align="top" width="70.24" fill="rgb(246,246,246)" needlePath="images\cuadrado.png" x="535" value="0" cx="34.31" cy="44.42" releasePath="images\cuadrado.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt26">
+   <wgtStyle font-bold="true" sdx="14" keyImage="images/backspace (3).png" idy="-10" altgrkey="0x01000003" font-family="Roboto" y="369.16" forcePaint="1" shiftkey="0x01000003" height="88.84" type="momentary" font-sizepx="29" font-color="rgb(255,255,255)" form="standard" key="0x01000003" font-size="22" vert-align="top" width="150.52" fill="rgb(246,246,246)" needlePath="images\cuadrado.png" showImage="1" x="5" value="0" cx="75.26" sdy="30" cy="44.42" idx="-8" altgrshiftkey="0x01000003" releasePath="images\cuadrado.png"/>
+  </object>
+  <object class="KeyButtonWgt" hmiStyle="type:btn" id="KeyButtonWgt40">
+   <wgtStyle font-bold="true" sdx="70" keyImage="images/Imagen1.png" idy="-15" altgrkey="0x01000024" font-family="Roboto" y="369.40" shiftkey="0x01000024" height="88.02" type="maintained" font-sizepx="40" image-color="rgb(255,255,224)" font-color="rgb(255,255,255)" form="standard" key="0x01000024" font-size="30" vert-align="top" width="140.59" fill="rgb(192,192,192)" needlePath="images\cuadrado.png" showImage="1" x="252.50" value="1" cx="70" sdy="40" cy="44.01" idx="-35" altgrshiftkey="0x01000024" releasePath="images\cuadrado.png"/>
+  </object>
+ </object>
+</wgtPage>

@@ -1,0 +1,54 @@
+<wgtPage rev="1" projectType="HMI Project">
+ <object px="0" pageType="modal" py="0" downloadPrepDone="false" titlebar="false" pageSize="425,150" staticOptEnable="true" scriptFile="ordentrabajofinalizada.js" staticFile="opt/ordentrabajofinalizada.png" class="DialogWgt" dynPosition="false" singleInstance="true" dataWndSize="0,70" titleName="" usedFonts="Roboto" pageName="OrdenTrabajoFinalizada" id="OrdenTrabajoFinalizada">
+  <wgtStyle v="04.05.00.558" fitToSize="1" width="425" ver="040500558" color="rgb(255,255,0)" x="0" height="150" y="0"/>
+  <object mlFileName="" class="PageMLTextMgrWgt" mgrType="Page" id="_PageMLTextMgrWgt">
+   <wgtStyle width="0" x="0" height="0" y="0"/>
+   <langs defLangId="L1" curLangId="L1">
+    <lang keypads="" defaultFont="Roboto" langId="L1" name="Lang1" langCode="en-US" writingsystem="Any" removable="false"/>
+   </langs>
+   <MLTexts>
+    <MLText L1="" id="6"/>
+    <MLText L1="Orden de trabajo finalizada!!&#xa;Debe seleccionar un item diferente." id="3"/>
+   </MLTexts>
+  </object>
+  <object static="true" class="LabelWgt" id="label1">
+   <wgtStyle alignment="center" vert-align="top" cy="29.84" font-family="Roboto" width="426" wrapping="true" font-sizepx="25" font-size="19" font-color="rgb(23,30,40)" font-bold="true" keypad-type="None" x="-1" marker="true" height="63" y="75" cx="197.42"/>
+   <links>
+    <lang class="MLTextLink" textid="3"/>
+   </links>
+  </object>
+  <object static="true" class="ImageWgt" id="altImg47">
+   <wgtStyle imagePath="images/ic_al1_047.svg" cy="24.50" width="52" x="186" height="49" y="16.28" cx="26"/>
+  </object>
+  <object static="true" class="ShapeWgt" id="rect1">
+   <wgtStyle cy="75" width="425" stroke-width="4" fill="none" nodeName="rect" x="0" height="150" y="0" cx="205.65"/>
+  </object>
+  <object static="true" class="ImageWgt" id="mathImg13">
+   <wgtStyle imagePath="images/ic_ma1_013.svg" cy="15" width="30" stroke-width="0" stroke="rgb(139,0,0)" x="378" height="30" y="18" cx="15"/>
+  </object>
+  <object customType="Button" class="GroupWgt" id="BtnStd3">
+   <wgtStyle cy="32.49" width="71" x="357.50" height="65" y="0.50" cx="35.50"/>
+   <links>
+    <attr attrName="bdrImage" alias="ButtonWgt.bdrImage;ImageWgt1.bdrImage"/>
+   </links>
+   <object static="true" class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnStd3.frmImg">
+    <wgtStyle cy="56.78" width="71" bdrImageSize="52.00,50.00" fill="rgb(127,127,127)" x="0" height="65" bdrSize="0.17,0.14,0.16,0.16" y="0" cx="57" bdrEdges="0.14,0.13,0.12,0.13"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-name:shiney; hmi-shape:rect; hmi-type:btn; type:btn" id="BtnStd3.btn">
+    <wgtStyle cy="42.64" width="51.89" bdrImageSize="38.00,37.00" fill="rgb(120,120,120)" downFillColor="rgb(120,120,120)" x="9.56" height="47.49" type="momentary" bdrSize="0.11,0.11,0.08,0.09" y="8.76" cx="43.47" form="standard" value="0"/>
+    <links>
+     <action f="cerrarMensajeOrden" attribute="onMouseClick" event="onMouseClick" class="JavaScriptAction" actionWgt="_WgtMgr" actionID="1"/>
+    </links>
+   </object>
+   <object static="true" class="LabelWgt" hmiStyle="hmi-type:wgtlabel" id="BtnStd3.lbl">
+    <wgtStyle alignment="center" vert-align="middle" cy="36.66" font-family="Roboto" width="43.69" wrapping="true" font-sizepx="13" font-size="12" font-color="rgb(40,40,40)" keypad-type="None" x="12.28" height="38.75" y="12.50" cx="42.31"/>
+    <links>
+     <lang class="MLTextLink" textid="6"/>
+    </links>
+   </object>
+   <object static="true" class="ImageWgt" hmiStyle="hmi-name:solid; hmi-shape:rect; hmi-type:icon" id="BtnStd3.icoImg">
+    <wgtStyle cy="13.10" width="27.31" x="20.47" height="21.25" y="21.25" cx="18.25"/>
+   </object>
+  </object>
+ </object>
+</wgtPage>

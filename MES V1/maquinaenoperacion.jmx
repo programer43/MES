@@ -1,0 +1,18 @@
+<wgtPage rev="1" projectType="HMI Project">
+ <object px="0" pageType="modal" py="0" downloadPrepDone="false" titlebar="false" pageSize="370,149" staticOptEnable="true" staticFile="opt/maquinaenoperacion.png" class="DialogWgt" dynPosition="false" singleInstance="true" dataWndSize="0,70" titleName="" pageName="MaquinaEnOperacion" id="MaquinaEnOperacion">
+  <wgtStyle v="04.05.00.558" fitToSize="1" width="370" ver="040500558" x="0" height="149" y="0"/>
+  <object mlFileName="" class="PageMLTextMgrWgt" mgrType="Page" id="_PageMLTextMgrWgt">
+   <wgtStyle width="0" x="0" height="0" y="0"/>
+   <langs defLangId="L1" curLangId="L1">
+    <lang keypads="" defaultFont="Roboto" langId="L1" name="Lang1" langCode="en-US" writingsystem="Any" removable="false"/>
+   </langs>
+   <MLTexts/>
+  </object>
+  <object static="true" class="ImageWgt" id="image17">
+   <wgtStyle imagePath="images/mms_maquina_operacion_ot.png" cy="75.35" width="376.45" x="-4" height="150.71" y="-1" cx="188.22"/>
+  </object>
+  <object class="GroupSubscribeWgt" id="MaquinaEnOperacion@$GroupSubscrWgt@$0">
+   <wgtStyle width="0" x="0" height="0" y="0"/>
+  </object>
+ </object>
+</wgtPage>

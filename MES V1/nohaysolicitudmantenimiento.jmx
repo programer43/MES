@@ -1,0 +1,57 @@
+<wgtPage rev="1" projectType="HMI Project">
+ <object px="0" pageType="modal" py="0" downloadPrepDone="false" titlebar="false" pageSize="565,350" staticOptEnable="true" scriptFile="nohaysolicitudmantenimiento.js" staticFile="opt/nohaysolicitudmantenimiento.png" class="DialogWgt" dynPosition="false" singleInstance="true" dataWndSize="0,70" titleName="" usedFonts="Roboto" pageName="NoHaySolicitudMantenimiento" id="NoHaySolicitudMantenimiento">
+  <wgtStyle v="04.05.00.558" fitToSize="1" width="565" ver="040500558" color="rgb(255,255,0)" x="0" height="350" y="0"/>
+  <object mlFileName="" class="PageMLTextMgrWgt" mgrType="Page" id="_PageMLTextMgrWgt">
+   <wgtStyle width="0" x="0" height="0" y="0"/>
+   <langs defLangId="L1" curLangId="L1">
+    <lang keypads="" defaultFont="Roboto" langId="L1" name="Lang1" langCode="en-US" writingsystem="Any" removable="false"/>
+   </langs>
+   <MLTexts>
+    <MLText L1="" id="2"/>
+    <MLText L1="No hay solicitud actual&#xa;de mantenimiento" id="0"/>
+   </MLTexts>
+  </object>
+  <object static="true" class="LabelWgt" id="label1">
+   <wgtStyle alignment="center" vert-align="top" cy="63.86" font-family="Roboto" width="520.26" wrapping="true" font-sizepx="37" font-size="28" font-color="rgb(23,30,40)" font-bold="true" keypad-type="None" x="23.15" marker="true" height="134.84" y="201" cx="241.10"/>
+   <links>
+    <lang class="MLTextLink" textid="0"/>
+   </links>
+  </object>
+  <object static="true" class="ImageWgt" id="altImg47">
+   <wgtStyle imagePath="images/ic_al1_047.svg" cy="34.41" width="63.36" x="251.60" height="68.82" y="81.27" cx="31.68"/>
+  </object>
+  <object class="GroupSubscribeWgt" id="NoHaySolicitudMantenimiento@$GroupSubscrWgt@$0">
+   <wgtStyle width="0" x="0" height="0" y="0"/>
+  </object>
+  <object static="true" class="ShapeWgt" id="rect1">
+   <wgtStyle cy="177.32" width="567" stroke-width="10" fill="none" nodeName="rect" x="0" height="354.65" y="-2.30" cx="274.35"/>
+  </object>
+  <object static="true" class="ImageWgt" id="mathImg13">
+   <wgtStyle imagePath="images/ic_ma1_013.svg" cy="28.09" width="48.74" stroke-width="0" stroke="rgb(139,0,0)" x="492.24" height="56.18" y="26.50" cx="24.37"/>
+  </object>
+  <object customType="Button" class="GroupWgt" id="BtnStd3">
+   <wgtStyle cy="57.22" width="104.78" x="464.22" height="114.47" y="-2.65" cx="52.39"/>
+   <links>
+    <attr attrName="bdrImage" alias="ButtonWgt.bdrImage;ImageWgt1.bdrImage"/>
+   </links>
+   <object static="true" class="ImageWgt" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" id="BtnStd3.frmImg">
+    <wgtStyle cy="99.99" width="104.78" bdrImageSize="52.00,50.00" fill="rgb(127,127,127)" x="0" height="114.47" bdrSize="0.17,0.14,0.16,0.16" y="0" cx="84.12" bdrEdges="0.14,0.13,0.12,0.13"/>
+   </object>
+   <object class="ButtonWgt" hmiStyle="hmi-name:shiney; hmi-shape:rect; hmi-type:btn; type:btn" id="BtnStd3.btn">
+    <wgtStyle cy="75.10" width="76.58" bdrImageSize="38.00,37.00" fill="rgb(120,120,120)" downFillColor="rgb(120,120,120)" x="14.11" height="83.64" type="momentary" bdrSize="0.11,0.11,0.08,0.09" y="15.42" cx="64.15" form="standard" value="0"/>
+    <links>
+     <action f="cerrarMensajeNoMantenimiento" attribute="onMouseClick" event="onMouseClick" class="JavaScriptAction" actionWgt="_WgtMgr" actionID="1"/>
+    </links>
+   </object>
+   <object static="true" class="LabelWgt" hmiStyle="hmi-type:wgtlabel" id="BtnStd3.lbl">
+    <wgtStyle alignment="center" vert-align="middle" cy="64.57" font-family="Roboto" width="64.48" wrapping="true" font-sizepx="13" font-size="12" font-color="rgb(40,40,40)" keypad-type="None" x="18.13" height="68.25" y="22.01" cx="62.44"/>
+    <links>
+     <lang class="MLTextLink" textid="2"/>
+    </links>
+   </object>
+   <object static="true" class="ImageWgt" hmiStyle="hmi-name:solid; hmi-shape:rect; hmi-type:icon" id="BtnStd3.icoImg">
+    <wgtStyle cy="23.06" width="40.31" x="30.22" height="37.42" y="37.42" cx="26.93"/>
+   </object>
+  </object>
+ </object>
+</wgtPage>
