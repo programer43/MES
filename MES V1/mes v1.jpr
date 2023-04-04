@@ -85,6 +85,7 @@
     </category>
    </categories>
   </object>
+<<<<<<< HEAD
   <object id="_ProjectMLTextMgr" mlFileName="" class="PageMLTextMgrWgt" mgrType="Project">
    <wgtStyle y="0" height="0" x="0" width="0"/>
    <langs curLangId="L1" defLangId="L1">
@@ -296,6 +297,219 @@
   </object>
   <object id="MES V1@$GroupSubscrWgt@$0" class="GroupSubscribeWgt">
    <wgtStyle y="0" height="0" x="0" width="0"/>
+=======
+  <object class="PageMLTextMgrWgt" mgrType="Project" id="_ProjectMLTextMgr" mlFileName="">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+   <langs curLangId="L1" defLangId="L1">
+    <lang langCode="en-US" keypads="" name="Lang1" writingsystem="Any" langId="L1" defaultFont="Roboto" removable="false"/>
+   </langs>
+   <MLTexts/>
+  </object>
+  <object class="PLCMgrWgt" id="_PLCMgr" fileName="protocols.xml">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+  </object>
+  <object class="TagMgrWgt" id="_TagMgr" fileName="tags.xml">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+   <dataLinks>
+    <dataLink attribute="GroupSource" sourceType="Data" readWrite="R" dataSource="_IdalGrpSrc"/>
+    <dataLink attribute="TagSource" sourceType="Data" readWrite="R/W" dataSource="_IdalTagSrc"/>
+   </dataLinks>
+  </object>
+  <object threadEnable="true" class="IdalItemsWgt" id="_IdalTagSrc" debugEnable="false" retryCount="1">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+  </object>
+  <object threadEnable="false" class="IdalGroupWgt" id="_IdalGrpSrc" debugEnable="false" retryCount="1">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+  </object>
+  <object class="TrendMgrWgt" id="_TrendMgr" fileName="trends.xml">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+  </object>
+  <object class="ReportMgrWgt" id="_ReportMgr" fileName="reports.xml">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+  </object>
+  <object class="ReportPageMgrWgt" id="_ReportPageMgr">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+   <categories>
+    <category name="Native" technology="3" defaultsize="800,480" home="PageBlank.jmx"/>
+   </categories>
+  </object>
+  <object class="DictionaryMgrWgt" id="_DictionaryMgr" fileName="dictionaries.xml">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+  </object>
+  <object class="PageMLTextMgrWgt" mgrType="Alarm" id="_AlarmMLTextMgr" mlFileName="alarms.xml">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+  </object>
+  <object class="AlarmsMgrWgt" id="_AlarmsMgr" nCustomFields="2" fileName="alarms.xml">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+   <dataLinks>
+    <dataLink attribute="AlarmSource" sourceType="Data" readWrite="R" dataSource="_IdalAlarms"/>
+   </dataLinks>
+  </object>
+  <object class="EventMgrWgt" id="_EventMgr" fileName="eventconfig.xml">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+  </object>
+  <object class="PageMLTextMgrWgt" mgrType="Scheduler" id="_ScheduleMLTextMgr" mlFileName="scheduler.xml">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+  </object>
+  <object class="ScheduleMgrWgt" id="_ScheduleMgr" fileName="scheduler.xml">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+  </object>
+  <object threadEnable="false" class="IdalAlarmsWgt" id="_IdalAlarms" debugEnable="false" retryCount="1">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+  </object>
+  <object class="IdalUserMgmtWgt" id="_IdalUserMgmt">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+  </object>
+  <object class="IdalMgrWgt" id="_IdalMgr">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+  </object>
+  <object class="RecipeMgrWgt" id="_RecipeMgr">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+   <dataLinks>
+    <dataLink attribute="recipeIOSrc" sourceType="Recipe" readWrite="R/W" dataSource="_IdalRecipe"/>
+   </dataLinks>
+  </object>
+  <object class="AuditTrailMgrWgt" id="_AuditTrailMgr">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+  </object>
+  <object class="DataTransferMgrWgt" id="_DataTransferMgr" syncOnInit="true">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+   <object lowLimit="0" hI3="data1.a;data1.b,data2.a;data2.b,data3.a;data3.b,data4.a;data4.b,data5.a;data5.b,data6.a;data6.b,data6.a;data6.b" name="data1" transferMode="1" highLimit="0" class="DataXferWgt" enable="true" direction="0" r="0" id="data1" syncOnInit="1" type="1" h3="data1.a;data1.b,data2.a;data2.b,data3.a;data3.b,data4.a;data4.b,data5.a;data5.b,data6.a;data6.b,data6.a;data6.b">
+    <wgtStyle width="0" y="0" height="0" x="0"/>
+    <dataLinks>
+     <dataLink class="TagMgrWgt" attribute="srcA" sourceType="Tag" readWrite="R" dataSource="_TagMgr" widgetType="Project" tagType="int" tag="Year" tagIndex="-1"/>
+     <dataLink class="TagMgrWgt" attribute="srcB" sourceType="Tag" readWrite="R" dataSource="_TagMgr" widgetType="Project" tagType="short" tag="PLC/GT_DateTime_0" tagIndex="-1"/>
+     <dataLink class="SysPropMgrWgt" attribute="trigger" sourceType="System" readWrite="R" dataSource="_SysPropMgr" widgetType="Project" tagType="int" tag="Second" tagIndex="-1"/>
+    </dataLinks>
+   </object>
+   <object lowLimit="0" name="data2" transferMode="1" highLimit="0" class="DataXferWgt" enable="true" direction="0" r="1" id="data2" syncOnInit="1" type="1">
+    <wgtStyle width="0" y="0" height="0" x="0"/>
+    <dataLinks>
+     <dataLink class="TagMgrWgt" attribute="srcA" sourceType="Tag" readWrite="R" dataSource="_TagMgr" widgetType="Project" tagType="int" tag="Month" tagIndex="-1"/>
+     <dataLink class="TagMgrWgt" attribute="srcB" sourceType="Tag" readWrite="R" dataSource="_TagMgr" widgetType="Project" tagType="short" tag="PLC/GT_DateTime_1" tagIndex="-1"/>
+     <dataLink class="SysPropMgrWgt" attribute="trigger" sourceType="System" readWrite="R" dataSource="_SysPropMgr" widgetType="Project" tagType="int" tag="Second" tagIndex="-1"/>
+    </dataLinks>
+   </object>
+   <object lowLimit="0" name="data3" transferMode="1" highLimit="0" class="DataXferWgt" enable="true" direction="0" r="2" id="data3" syncOnInit="1" type="1">
+    <wgtStyle width="0" y="0" height="0" x="0"/>
+    <dataLinks>
+     <dataLink class="TagMgrWgt" attribute="srcA" sourceType="Tag" readWrite="R" dataSource="_TagMgr" widgetType="Project" tagType="int" tag="Day" tagIndex="-1"/>
+     <dataLink class="TagMgrWgt" attribute="srcB" sourceType="Tag" readWrite="R" dataSource="_TagMgr" widgetType="Project" tagType="short" tag="PLC/GT_DateTime_2" tagIndex="-1"/>
+     <dataLink class="SysPropMgrWgt" attribute="trigger" sourceType="System" readWrite="R" dataSource="_SysPropMgr" widgetType="Project" tagType="int" tag="Second" tagIndex="-1"/>
+    </dataLinks>
+   </object>
+   <object lowLimit="0" name="data4" transferMode="1" highLimit="0" class="DataXferWgt" enable="true" direction="0" r="3" id="data4" syncOnInit="1" type="1">
+    <wgtStyle width="0" y="0" height="0" x="0"/>
+    <dataLinks>
+     <dataLink class="TagMgrWgt" attribute="srcA" sourceType="Tag" readWrite="R" dataSource="_TagMgr" widgetType="Project" tagType="int" tag="Hour" tagIndex="-1"/>
+     <dataLink class="TagMgrWgt" attribute="srcB" sourceType="Tag" readWrite="R" dataSource="_TagMgr" widgetType="Project" tagType="short" tag="PLC/GT_DateTime_3" tagIndex="-1"/>
+     <dataLink class="SysPropMgrWgt" attribute="trigger" sourceType="System" readWrite="R" dataSource="_SysPropMgr" widgetType="Project" tagType="int" tag="Second" tagIndex="-1"/>
+    </dataLinks>
+   </object>
+   <object lowLimit="0" name="data5" transferMode="1" highLimit="0" class="DataXferWgt" enable="true" direction="0" r="4" id="data5" syncOnInit="1" type="1">
+    <wgtStyle width="0" y="0" height="0" x="0"/>
+    <dataLinks>
+     <dataLink class="TagMgrWgt" attribute="srcA" sourceType="Tag" readWrite="R" dataSource="_TagMgr" widgetType="Project" tagType="int" tag="Minute" tagIndex="-1"/>
+     <dataLink class="TagMgrWgt" attribute="srcB" sourceType="Tag" readWrite="R" dataSource="_TagMgr" widgetType="Project" tagType="short" tag="PLC/GT_DateTime_4" tagIndex="-1"/>
+     <dataLink class="SysPropMgrWgt" attribute="trigger" sourceType="System" readWrite="R" dataSource="_SysPropMgr" widgetType="Project" tagType="int" tag="Second" tagIndex="-1"/>
+    </dataLinks>
+   </object>
+   <object lowLimit="0" name="data6" transferMode="1" highLimit="0" class="DataXferWgt" enable="true" direction="0" r="5" id="data6" syncOnInit="1" type="1">
+    <wgtStyle width="0" y="0" height="0" x="0"/>
+    <dataLinks>
+     <dataLink class="TagMgrWgt" attribute="srcA" sourceType="Tag" readWrite="R" dataSource="_TagMgr" widgetType="Project" tagType="int" tag="Second" tagIndex="-1"/>
+     <dataLink class="TagMgrWgt" attribute="srcB" sourceType="Tag" readWrite="R" dataSource="_TagMgr" widgetType="Project" tagType="short" tag="PLC/GT_DateTime_5" tagIndex="-1"/>
+     <dataLink class="SysPropMgrWgt" attribute="trigger" sourceType="System" readWrite="R" dataSource="_SysPropMgr" widgetType="Project" tagType="int" tag="Second" tagIndex="-1"/>
+    </dataLinks>
+   </object>
+   <object lowLimit="0" name="data7" transferMode="1" highLimit="0" class="DataXferWgt" enable="true" direction="0" r="6" id="data7" syncOnInit="1" type="1">
+    <wgtStyle width="0" y="0" height="0" x="0"/>
+    <dataLinks>
+     <dataLink class="TagMgrWgt" attribute="srcA" sourceType="Tag" readWrite="R" dataSource="_TagMgr" widgetType="Project" tagType="int" tag="Second" tagIndex="-1"/>
+     <dataLink class="TagMgrWgt" attribute="srcB" sourceType="Tag" readWrite="R" dataSource="_TagMgr" widgetType="Project" tagType="short" tag="PLC/GT_DateTime_5" tagIndex="-1"/>
+     <dataLink class="SysPropMgrWgt" attribute="trigger" sourceType="System" readWrite="R" dataSource="_SysPropMgr" widgetType="Project" tagType="int" tag="Second" tagIndex="-1"/>
+    </dataLinks>
+   </object>
+  </object>
+  <object class="IndexedTagSetMgrWgt" id="_IndexedTagSetMgr">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+  </object>
+  <object class="DBConnectorMgrWgt" id="_DBConnectorMgr">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+  </object>
+  <object class="IdalDBConnectorWgt" id="_IdalDBConnector">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+  </object>
+  <object class="UserGroupMgrWgt" id="_UserGroupMgr">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+  </object>
+  <object class="UserMgrWgt" id="_UserMgr">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+   <dataLinks>
+    <dataLink attribute="userSource" sourceType="Data" readWrite="R" dataSource="_IdalUserMgmt"/>
+    <dataLink attribute="userSource" sourceType="Data" readWrite="W" dataSource="_IdalUserMgmt"/>
+   </dataLinks>
+  </object>
+  <object class="PrintMgrWgt" id="_PrintMgr">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+  </object>
+  <object class="ThreadMgrWgt" id="_ThreadMgr">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+   <dataLinks>
+    <dataLink attribute="WriteSource" sourceType="Data" readWrite="W" dataSource="_IdalItems"/>
+   </dataLinks>
+  </object>
+  <object threadEnable="false" class="IdalItemsWgt" id="_IdalItems" debugEnable="false" retryCount="1">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+  </object>
+  <object class="VariablesWgt" id="_VariablesWgt">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+  </object>
+  <object class="RemoteClientMgrWgt" id="_RemoteClientMgr">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+  </object>
+  <object class="SysPropMgrWgt" id="_SysPropMgr">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+   <dataLinks>
+    <dataLink attribute="sysIOSrc" sourceType="Data" readWrite="R/W" dataSource="_IdalSysProp"/>
+   </dataLinks>
+  </object>
+  <object class="ScreenMgrWgt" id="_ScreenMgr" TimeOutInterval="60">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+  </object>
+  <object class="IdalRecipeWgt" id="_IdalRecipe">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+  </object>
+  <object class="IdalSysPropWgt" id="_IdalSysProp">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+  </object>
+  <object class="KeypadMgrWgt" id="_KeypadMgr">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+  </object>
+  <object class="KeyExtMgrWgt" id="_KeyExtMgr">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+  </object>
+  <object class="OPCUAMgrWgt" id="_OPCUAMgr">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+  </object>
+  <object class="IFMqttMgrWgt" id="_IFMqttMgr">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+  </object>
+  <object class="SignatureMgrWgt" id="_SignatureMgr">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+  </object>
+  <object class="JSFunctBlockWgt" id="_JSFunctBlock">
+   <wgtStyle value5="" initDelay="0" value13="" height="55" value16="" y="0" value14="" x="0" value12="" value7="" value11="" value8="" value3="" width="71" value1="" value10="" value4="" value9="" value6="" value15="" value2=""/>
+   <dataLinks>
+    <dataLink class="TagMgrWgt" attribute="value1" sourceType="Tag" readWrite="R" dataSource="_TagMgr" widgetType="Project" tagType="boolean" tag="PLC/GT_ReturnHome" tagIndex="-1"/>
+   </dataLinks>
+   <links>
+    <action class="JavaScriptAction" actionWgt="_WgtMgr" attribute="onDataUpdate" event="onDataUpdate" f="_JSFunctBlock_onDataUpdate" actionID="0"/>
+   </links>
+  </object>
+  <object class="GroupSubscribeWgt" id="MES V1@$GroupSubscrWgt@$0">
+   <wgtStyle width="0" y="0" height="0" x="0"/>
+>>>>>>> 65e2006325971041c1f95b4790e4b117c78fdf4c
   </object>
  </object>
 </wgtPage>
